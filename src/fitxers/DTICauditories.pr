@@ -1,0 +1,137 @@
+arrDTICauditories = 
+[
+	{
+		materia: "DTIC",
+		subMateria: [
+			{
+				materia: "Seguretat",
+				subMateria: [
+					{
+						materia: "Destrucción confidencial de documentos",
+						PR:  [
+							{
+								"pregunta" : "Destruccion confidencial pregunta1",
+								"resposta" : "Destruccion confidencial resposta 1"
+							},
+							{
+								"pregunta" : "Destruccion confidencial pregunta2",
+								"resposta" : "Destruccion confidencial resposta 2"
+							},
+							{
+								"pregunta" : "Destruccion confidencial pregunta3",
+								"resposta" : "Destruccion confidencial resposta 3"
+							},
+							{
+								"pregunta" : "Destruccion confidencial pregunta4",
+								"resposta" : "Destruccion confidencial resposta 4"
+							},
+						]
+					},
+					{
+						materia: "Control acceso fisico al centro",
+						PR:  [
+							{
+								"pregunta" : "control acceso pregunta1",
+								"resposta" : "control acceso resposta 1"
+							},
+							{
+								"pregunta" : "control acceso pregunta2",
+								"resposta" : "control acceso resposta 2"
+							},
+							{
+								"pregunta" : "control acceso pregunta3",
+								"resposta" : "control acceso resposta 3"
+							},
+							{
+								"pregunta" : "control acceso pregunta4",
+								"resposta" : "control acceso resposta 4"
+							},
+							{
+								"pregunta" : "control acceso pregunta5",
+								"resposta" : "control acceso resposta 5"
+							},
+							{
+								"pregunta" : "control acceso pregunta6",
+								"resposta" : "control acceso resposta 6"
+							},
+							{
+								"pregunta" : "control acceso pregunta7",
+								"resposta" : "control acceso resposta 7"
+							},
+						]
+					},
+					{
+						materia: "Mesas limpias",
+						PR:  [
+							{
+								"pregunta" : "Mesas pregunta1",
+								"resposta" : "Mesas resposta 1"
+							},
+							{
+								"pregunta" : "Mesas pregunta2",
+								"resposta" : "Mesas resposta 2"
+							},
+							{
+								"pregunta" : "Mesas pregunta3",
+								"resposta" : "Mesas resposta 3"
+							},
+							{
+								"pregunta" : "Mesas pregunta4",
+								"resposta" : "Mesas resposta 4"
+							},
+							{
+								"pregunta" : "Mesas pregunta5",
+								"resposta" : "Mesas resposta 5"
+							},
+						]
+					},
+					{
+						materia: "Sistema videovigilancia y/o camaras de control",
+						PR:  [
+							{
+								"pregunta" : "Videovigilancia pregunta2",
+								"resposta" : "Videovigilancia 2"
+							},
+							{
+								"pregunta" : "Videovigilancia pregunta3",
+								"resposta" : "Videovigilancia 3"
+							},
+							{
+								"pregunta" : "Videovigilancia pregunta4",
+								"resposta" : "Videovigilancia 4"
+							},
+							{
+								"pregunta" : "Videovigilancia pregunta5",
+								"resposta" : "Videovigilancia 5"
+							},
+							{
+								"pregunta" : "Videovigilancia pregunta6",
+								"resposta" : "Videovigilancia 6"
+							},
+						]
+					},
+					{
+						materia: "Soportes fisicos",
+						PR:  [
+							{
+								"pregunta" : "Soportes pregunta1",
+								"resposta" : "Soportes resposta 1"
+							},
+							{
+								"pregunta" : "Soportes pregunta2",
+								"resposta" : "Soportes resposta 2"
+							},
+							{
+								"pregunta" : "Soportes pregunta3",
+								"resposta" : "Soportes resposta 3"
+							},
+						]
+					},
+				]
+			}
+		]
+	},
+
+
+
+]

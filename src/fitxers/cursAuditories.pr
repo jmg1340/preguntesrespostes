@@ -1,0 +1,129 @@
+arrCursAuditories = 
+[
+	{
+		materia: "Curs Auditories",
+		subMateria: [
+			{
+				materia: "Materia 1",
+				subMateria: [
+					{
+						materia: "Submateria 1",
+						PR:  [
+							{
+								"pregunta" : "pregunta1",
+								"resposta" : "resposta 1"
+							},
+							{
+								"pregunta" : "pregunta2",
+								"resposta" : "resposta 2"
+							},
+						]
+					},
+					{
+						materia: "submateria 2",
+						PR:  [
+							{
+								"pregunta" : "submateria 2 - pregunta1",
+								"resposta" : "submateria 2 - resposta 1"
+							},
+							{
+								"pregunta" : "submateria 2 - pregunta2",
+								"resposta" : "submateria 2 - resposta 2"
+							},
+							{
+								"pregunta" : "submateria 2 - pregunta3",
+								"resposta" : "submateria 2 - resposta 3"
+							},
+							{
+								"pregunta" : "submateria 2 - pregunta4",
+								"resposta" : "submateria 2 - resposta 4"
+							},
+							{
+								"pregunta" : "submateria 2 - pregunta5",
+								"resposta" : "submateria 2 - resposta 5"
+							},
+							{
+								"pregunta" : "submateria 2 - pregunta6",
+								"resposta" : "submateria 2 - resposta 6"
+							},
+							{
+								"pregunta" : "submateria 2 - pregunta7",
+								"resposta" : "submateria 2 - resposta 7"
+							},
+						]
+					},
+					{
+						materia: "submateria 3",
+						PR:  [
+							{
+								"pregunta" : "submateria 3 - pregunta1",
+								"resposta" : "submateria 3 - resposta 1"
+							},
+							{
+								"pregunta" : "submateria 3 - pregunta2",
+								"resposta" : "submateria 3 - resposta 2"
+							},
+							{
+								"pregunta" : "submateria 3 - pregunta3",
+								"resposta" : "submateria 3 - resposta 3"
+							},
+							{
+								"pregunta" : "submateria 3 - pregunta4",
+								"resposta" : "submateria 3 - resposta 4"
+							},
+							{
+								"pregunta" : "submateria 3 - pregunta5",
+								"resposta" : "submateria 3 - resposta 5"
+							},
+						]
+					},
+					{
+						materia: "submateria 4",
+						PR:  [
+							{
+								"pregunta" : "submateria 4 - pregunta2",
+								"resposta" : "submateria 4 - 2"
+							},
+							{
+								"pregunta" : "submateria 4 - pregunta3",
+								"resposta" : "submateria 4 - 3"
+							},
+							{
+								"pregunta" : "submateria 4 - pregunta4",
+								"resposta" : "submateria 4 - 4"
+							},
+							{
+								"pregunta" : "submateria 4 - pregunta5",
+								"resposta" : "submateria 4 - 5"
+							},
+							{
+								"pregunta" : "submateria 4 - pregunta6",
+								"resposta" : "submateria 4 - 6"
+							},
+						]
+					},
+					{
+						materia: "submateria 5",
+						PR:  [
+							{
+								"pregunta" : "submateria 5 - pregunta1",
+								"resposta" : "submateria 5 - resposta 1"
+							},
+							{
+								"pregunta" : "submateria 5 - pregunta2",
+								"resposta" : "submateria 5 - resposta 2"
+							},
+							{
+								"pregunta" : "submateria 5 - pregunta3",
+								"resposta" : "submateria 5 - resposta 3"
+							},
+						]
+					},
+				]
+			}
+		]
+	},
+
+
+
+]
