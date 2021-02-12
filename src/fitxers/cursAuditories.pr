@@ -4,54 +4,161 @@ arrCursAuditories =
 		materia: "Curs Auditories",
 		subMateria: [
 			{
-				materia: "Materia 1",
+				materia: "UC01 - Conocer la Importancia de la Norma ISO 27001 en el SGSI de una EmpresaPaquete SCORM",
 				subMateria: [
 					{
-						materia: "Submateria 1",
-						PR:  [
+						materia: "Sistemas de información",
+						subMateria: [
 							{
-								"pregunta" : "pregunta1",
-								"resposta" : "resposta 1"
-							},
-							{
-								"pregunta" : "pregunta2",
-								"resposta" : "resposta 2"
-							},
+								materia: "Concepto",
+								PR:  [
+									{
+										"pregunta" : "Un sistema de información es",
+										"resposta" : "un conjunto de procedimientos ordenados que permiten gestionar la información de la organización"
+									},
+									{
+										"pregunta" : "Un sistema de información debe",
+										"resposta" : "Recoger los datos necesarios y procesarlos adecuadamente con el fin de convertirlos en información.\n	Almacenar la información útil en bases de datos.\n		Proporcionar la información en tiempo y forma a los responsables de la organización."
+									},
+									{
+										"pregunta" : "Objetivo de un sistema de información",
+										"resposta" : "El objetivo fundamental de estos sistemas es proporcionar la información necesaria que facilite la toma de decisiones."
+									},
+									{
+										"pregunta" : "Características de un sistema de información",
+										"resposta" : "INCLUIR SOLO LA INFORMACIÓN ÚTIL: la que no se necesite o sea irrelevante representa una pérdida de tiempo para aquellos que desean usarla, y puede llegar a ocultar información realmente valiosa.\nOFRECER UNA INFORMACIÓN EXACTA: este es un requisito prioritario, ya que si los datos manejados son inexactos, la información carecerá de valor o será engañosa, lo que conducirá en todo caso a la posibilidad de adoptar decisiones erróneas."
+									}
+								]
+							}
 						]
 					},
 					{
-						materia: "submateria 2",
-						PR:  [
+						materia: "Informatización de los sistemas de información",
+						subMateria: [
 							{
-								"pregunta" : "submateria 2 - pregunta1",
-								"resposta" : "submateria 2 - resposta 1"
+								materia: "Introducción",
+								PR:  [
+									{
+										"pregunta" : "Herramientas de gestión de un sistema de informacion INFORMATIZADO:",
+										"resposta" : "SISTEMAS GESTORES DE BASES DE DATOS: Para construir bases de datos y guardar la información que se desea por la empresa, por ejemplo, la relativa a personal o recursos humanos.\nHOJAS DE CALCULO: Permiten realizar operaciones de forma rápida, en función de las relaciones que el usuario haya establecido previamente.\nPROCESADORES DE TEXTO: Facilitan la creación y organización de textos, y también el intercalado de gráficos para elaborar documentos escritos.\nGRÁFICOS DE NEGOCIOS: Permiten obtener información sobre la evolución de las variables que se deseen conocer del departamento."
+									}
+								]
 							},
 							{
-								"pregunta" : "submateria 2 - pregunta2",
-								"resposta" : "submateria 2 - resposta 2"
+								materia: "Características del sistema",
+								PR: [	
+									{
+										"pregunta" : "La informatización de los sistemas de información de una empresa debe contemplar una serie de características como",
+										"resposta" : "la confidencialidad, seguridad, flexibilidad, rapidez y fiabilidad"
+									},
+									{
+										"pregunta" : "Caracteristicas de CONFIDENCIALIDAD y SEGURIDAD",
+										"resposta" : "Muchos de los datos que forman parte de estos sistemas informatizados guardan relación con la privacidad de los empleados.\nEs un requisito imprescindible que el acceso a esta información solo contemple a aquellas personas que verdaderamente están autorizadas, ya que aquellos usuarios no autorizados que consigan el acceso a este tipo de información pueden ocasionar múltiples daños, no solo a los afectados sino también a la propia empresa."
+									},
+									{
+										"pregunta" : "MEDIDAS DE SEGURIDAD en cuanto a las caracteristicas de CONFIDENCIALIDAD y SEGURIDAD",
+										"resposta" : "Codificar los datos de forma que el usuario no autorizado no los comprenda.\nPermitir el acceso a diferentes parcelas de la base de datos, únicamente mediante el uso de determinados códigos.\nEstablecer criterios de acceso, como acceder solamente a lo que es necesario saber sobre la información del empleado.\n							Implantar políticas que regulen el uso de información sobre el empleado."
+									},
+									{
+										"pregunta" : "caracteristicas de FLEXIBILIDAD, RAPIDEZ y FIABILIDAD",
+										"resposta" : "Es imprescindible que el sistema sea adaptable en el tiempo a las necesidades del departamento correspondiente.\n	Por ello, los sistemas informatizados deben acompañarse de una adecuada y amplia documentación. De esta forma, se podrá conocer cómo fueron construidos y qué posibilidades de ampliación o compatibilidad presentan.\n	Los sistemas informatizados deben imprimir rapidez o agilidad a las consultas de información, prestando la correspondiente ayuda a las diversas áreas de aplicación."
+									}
+								]
 							},
 							{
-								"pregunta" : "submateria 2 - pregunta3",
-								"resposta" : "submateria 2 - resposta 3"
-							},
-							{
-								"pregunta" : "submateria 2 - pregunta4",
-								"resposta" : "submateria 2 - resposta 4"
-							},
-							{
-								"pregunta" : "submateria 2 - pregunta5",
-								"resposta" : "submateria 2 - resposta 5"
-							},
-							{
-								"pregunta" : "submateria 2 - pregunta6",
-								"resposta" : "submateria 2 - resposta 6"
-							},
-							{
-								"pregunta" : "submateria 2 - pregunta7",
-								"resposta" : "submateria 2 - resposta 7"
-							},
+								materia: "Problemas de los sistemas de información",
+								PR: [
+									{
+										"pregunta" : "Principales inconvenientes de los sistemas informatizados",
+										"resposta" : "FALTA DE CLARIDAD DE METAS Y OBJETIVOS: al no estar claras las funciones que estos sistemas deben realizar.\n	SOBREDIMENSIÓN DEL SISTEMA: los objetivos del sistema son demasiado elevados en relación a las capacidades de la organización.\n			FALTA DE INVOLUCRACIÓN DEL USUARIO: en ocasiones no se consigue un verdadero compromiso por parte del usuario."
+									}
+								]
+							}
 						]
 					},
+					{
+						materia: "Sistema de Gestion de la Seguridad de la Información",
+						subMateria: [
+							{
+								materia: "Implementación",
+								PR: [
+									{
+										"pregunta" : "El sistema de gestión de seguridad de la información (SGSI) está diseñado para",
+										"resposta" : "garantizar el cumplimiento de los controles de seguridad que deben proteger los activos de información de una organización"
+									},
+									{
+										"pregunta" : "En la aplicación del sistema de gestión de la seguridad de la información se adopta el modelo",
+										"resposta" : "Planear-Hacer-Chequear-Actuar (PDCA), que se puede aplicar a todos los procesos de un sistema de gestión de la seguridad de la información."
+									},
+									{
+										"pregunta" : "Del modelo PDCA - 'PLAN' (PLANIFICAR)",
+										"resposta" : "Se fijarán la política, objetivos, procesos y procedimientos del sistema de seguridad de la información relevantes para manejar el riesgo y mejorar la seguridad de la información de acuerdo con las políticas y objetivos generales de la organización."
+									},
+									{
+										"pregunta" : "Del modelo PDCA - 'DO' (HACER)",
+										"resposta" : "implementar la política, los controles y los procesos y procedimientos del sistema de gestión de seguridad de la información"
+									},
+									{
+										"pregunta" : "Del modelo PDCA - 'ACT' (ACTUAR)",
+										"resposta" : "Se adoptarán acciones correctivas y preventivas, basadas en los resultados de la auditoria interna del sistema de gestión de la seguridad de la información, juntamente con la revisión gerencial y cualquier otra información relevante con el fin de lograr la mejora continua del SGSI."
+									},
+									{
+										"pregunta" : "Del modelo PDCA - 'Check' (Verificar)",
+										"resposta" : "Se evaluará y medirá el desempeño del proceso en comparación con la política, objetivos y experiencias establecidas en el sistema de gestión de la seguridad de la información."
+									}
+								]
+							},
+							{
+								materia: "Consideraciones sobre el SGSI",
+								subMateria: [
+									{
+										materia: "Requerimientos generales de un SGSI",
+										PR: [
+											{
+												"pregunta": "Claves para la implementación de un SGSI",
+												"resposta": "Definir el ALCANCE y los LÍMITES del sistema de gestión de seguridad de la información de acuerdo a las características de la organización, los aspectos internos y externos relevantes que afecten a la seguridad de la información, y las necesidades y expectativas de las partes interesadas.\n	Determinar una POLÍTICA del sistema de gestión de la seguridad de la información en la que se incluya un MARCO REFERENCIAL PARA ESTABLECER SUS OBJETIVOS, IDENTIFICANDO LOS RIESGOS, AMENAZAS Y VULNERABILIDADES que se podrían producir."
+											}
+										]
+									},
+									{
+										materia: "Implementar y operar un SGSI",
+										PR: [
+											{
+												"pregunta" : "La organización debe formular un plan de tratamiento de riesgo que identifique",
+												"resposta" : "las acciones apropiadas, los recursos, las responsabilidades y las prioridades para manejar los riesgos de la seguridad de la información."
+											},
+											{
+												"pregunta": "La documentación del sistema de gestión de seguridad de la información debe incluir:",
+												"resposta": "Política, alcance y objetivos del SGSI.\n												Procedimientos y controles de soporte del SGSI.\n												Registros requeridos por el estándar internacional."
+											}
+										]
+									},
+									{
+										materia: "monitorear y revisar el SGSI",
+										PR: [
+											{
+												"pregunta" : "La organización debe:",
+												"resposta" : "realizar PROCEDIMIENTOS DE REVISION y CONTROLES (auditorías) que permitan detecta ERRORES de procesamiento (identificando las incidencias y violaciones de seguridad)"
+											}
+										]
+									},
+									{
+										materia: "Mantenimiento y mejora del SGSI",
+										PR: [
+											{
+												"pregunta": "la organización deberá:",
+												"resposta" : "IMPLEMENTAR LAS MEJORAS identificadas en el sistema de gestión de seguridad de la información, adoptando las ACCIONES CORRECTIVAS Y PREVENTIVAS apropiadas.\n	COMUNICAR LOS RESULTADOS Y ACCIONES a todas las partes interesadas con un nivel de detalle apropiado de acuerdo a las circunstancias y cuando sea relevante acordar cómo proceder, asegurándose que las mejoras logren los objetivos señalados."
+											}
+										]
+									}
+								]	
+							},
+							{
+
+							}
+						]
+					}
+,
 					{
 						materia: "submateria 3",
 						PR:  [
