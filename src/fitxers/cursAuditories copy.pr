@@ -76,6 +76,85 @@ arrCursAuditories =
 							}
 						]
 					},
+					{
+						materia: "Sistema de Gestion de la Seguridad de la Información",
+						subMateria: [
+							{
+								materia: "Implementación",
+								PR: [
+									{
+										"pregunta" : "El sistema de gestión de seguridad de la información (SGSI) está diseñado para",
+										"resposta" : "garantizar el cumplimiento de los controles de seguridad que deben proteger los activos de información de una organización"
+									},
+									{
+										"pregunta" : "En la aplicación del sistema de gestión de la seguridad de la información se adopta el modelo",
+										"resposta" : "Planear-Hacer-Chequear-Actuar (PDCA), que se puede aplicar a todos los procesos de un sistema de gestión de la seguridad de la información."
+									},
+									{
+										"pregunta" : "Del modelo PDCA - 'PLAN' (PLANIFICAR)",
+										"resposta" : "Se fijarán la política, objetivos, procesos y procedimientos del sistema de seguridad de la información relevantes para manejar el riesgo y mejorar la seguridad de la información de acuerdo con las políticas y objetivos generales de la organización."
+									},
+									{
+										"pregunta" : "Del modelo PDCA - 'DO' (HACER)",
+										"resposta" : "implementar la política, los controles y los procesos y procedimientos del sistema de gestión de seguridad de la información"
+									},
+									{
+										"pregunta" : "Del modelo PDCA - 'ACT' (ACTUAR)",
+										"resposta" : "Se adoptarán acciones correctivas y preventivas, basadas en los resultados de la auditoria interna del sistema de gestión de la seguridad de la información, juntamente con la revisión gerencial y cualquier otra información relevante con el fin de lograr la mejora continua del SGSI."
+									},
+									{
+										"pregunta" : "Del modelo PDCA - 'Check' (Verificar)",
+										"resposta" : "Se evaluará y medirá el desempeño del proceso en comparación con la política, objetivos y experiencias establecidas en el sistema de gestión de la seguridad de la información."
+									}
+								]
+							},
+							{
+								materia: "Consideraciones sobre el SGSI",
+								subMateria: [
+									{
+										materia: "Requerimientos generales de un SGSI",
+										PR: [
+											{
+												"pregunta": "Claves para la implementación de un SGSI",
+												"resposta": "Definir el ALCANCE y los LÍMITES del sistema de gestión de seguridad de la información de acuerdo a las características de la organización, los aspectos internos y externos relevantes que afecten a la seguridad de la información, y las necesidades y expectativas de las partes interesadas.\n	Determinar una POLÍTICA del sistema de gestión de la seguridad de la información en la que se incluya un MARCO REFERENCIAL PARA ESTABLECER SUS OBJETIVOS, IDENTIFICANDO LOS RIESGOS, AMENAZAS Y VULNERABILIDADES que se podrían producir."
+											}
+										]
+									},
+									{
+										materia: "Implementar y operar un SGSI",
+										PR: [
+											{
+												"pregunta" : "La organización debe formular un plan de tratamiento de riesgo que identifique",
+												"resposta" : "las acciones apropiadas, los recursos, las responsabilidades y las prioridades para manejar los riesgos de la seguridad de la información."
+											},
+											{
+												"pregunta": "La documentación del sistema de gestión de seguridad de la información debe incluir:",
+												"resposta": "Política, alcance y objetivos del SGSI.\n												Procedimientos y controles de soporte del SGSI.\n												Registros requeridos por el estándar internacional."
+											}
+										]
+									},
+									{
+										materia: "monitorear y revisar el SGSI",
+										PR: [
+											{
+												"pregunta" : "La organización debe:",
+												"resposta" : "realizar PROCEDIMIENTOS DE REVISION y CONTROLES (auditorías) que permitan detecta ERRORES de procesamiento (identificando las incidencias y violaciones de seguridad)"
+											}
+										]
+									},
+									{
+										materia: "Mantenimiento y mejora del SGSI",
+										PR: [
+											{
+												"pregunta": "la organización deberá:",
+												"resposta" : "IMPLEMENTAR LAS MEJORAS identificadas en el sistema de gestión de seguridad de la información, adoptando las ACCIONES CORRECTIVAS Y PREVENTIVAS apropiadas.\n	COMUNICAR LOS RESULTADOS Y ACCIONES a todas las partes interesadas con un nivel de detalle apropiado de acuerdo a las circunstancias y cuando sea relevante acordar cómo proceder, asegurándose que las mejoras logren los objetivos señalados."
+											}
+										]
+									}
+								]	
+							},
+						]
+					},
 				]
 			}
 		]

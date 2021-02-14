@@ -83,7 +83,8 @@ module.exports = function (ctx) {
       // analyze: true,
       // extractCSS: false,
       extendWebpack (cfg) {
-      }
+      },
+      devtool: 'source-map'
     },
 
     devServer: {

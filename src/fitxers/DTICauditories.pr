@@ -128,7 +128,26 @@ arrDTICauditories =
 						]
 					},
 				]
-			}
+			},
+      {
+        materia: "AAAAA",
+        subMateria: 
+        [
+          {
+            materia: "materia AAA",
+            PR: [
+              {
+                pregunta: "preguntaaaaaa",
+                resposta: "resposataaaaa"
+              },
+              {
+                pregunta: "pregunta bbbbbbbb",
+                resposta: "resposta bbbbbbb"
+              }
+            ]
+          }
+        ]
+      }
 		]
 	},
 

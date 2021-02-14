@@ -139,23 +139,55 @@ export default {
 
 
 
-    mostrarPreguntes: function(node) {
+    mostrarPreguntes: function() {
+      console.log("métod mostrarPreguntes")
+
       var arrPRSeleccionades2 = []
-      
+      // array del Ids dels nodes seleccionats. Sempre son els nodes on hi ha l'array de preguntes-respostes
+      console.log("this.ticked")
+      console.info(this.ticked)
+
+      // array d'objectes (nodes) del dataTree
+      // console.log("this.dataTree")
+      // console.log(JSON.stringify(this.dataTree))
+
+      // per cada id dels nodes sel·leccionats, afegim l'array de preguntes-respostes d'aquest node a arrPRSeleccinades2
       this.ticked.forEach(function(itemID){
-        arrPRSeleccionades2.push(trobarPR_seleccionades(this.dataTree, itemID))
+        // arrPRSeleccionades2.push(trobarPR_seleccionades(this.dataTree, itemID))
+        trobarPR_seleccionades(this.dataTree, itemID)
       }, this)
        
+      console.log("arrPRSeleccionades2")
+      console.log(arrPRSeleccionades2)
+
       this.$store.dispatch("modulPR/actGenerarPRSeleccionades", arrPRSeleccionades2)
       this.$router.push({ path: "/avaluar" })
       
+
+      // funcio recursiva
       function trobarPR_seleccionades(array, Id) {
+        console.log("FUNCIO trobarPR_seleccionades")
+
         for ( var index=0 ; index < array.length ; index++ ) {
+          // "array" es un array d'objectes
           if (array[index].id === Id) {
-            return JSON.parse(JSON.stringify(array[index]))
+            // si la propietat "id" del objecte es igual al Id que estem buscant
+            console.log("ID TROBAT!! array[index].id: " + array[index].id)
+            console.log("\tA continuacio retornem l'array de preguntes d'aquest Id")
+            console.info(array[index])
+            // 
+            // return JSON.parse(JSON.stringify(array[index]))
+            arrPRSeleccionades2.push( JSON.parse(JSON.stringify(array[index])) )
           } else {
-            if (array[index].children !== undefined)
-              return trobarPR_seleccionades(array[index].children, Id)
+            console.log("ID " + Id + " no coincideix amb el del node amb id: " + array[index].id)
+            // si existeix al propietat "children". Casos de que no existeixi seran nodes d'altres preguntes-respostes
+            if (array[index].children !== undefined){
+              console.log ("\ten el node SI existeix propietat CHILDREN")
+              trobarPR_seleccionades(array[index].children, Id)
+            } else {
+              console.log ("\tEn el node NO existeix CHILDREN")
+              // return
+            }
           }
         }
       }

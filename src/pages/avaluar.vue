@@ -98,10 +98,11 @@ export default {
     })
     .then(() => {
         this.arrPRSeleccionadesAleatories = this.generarArrPRSeleccionadesAleatories()
-            
+        console.log( this.arrPRSeleccionadesAleatories ) 
     })
-    .catch(() => {
+    .catch((e) => {
         console.log('Hi ha hagut algun fallo a la Promise de Created');
+        console.log( e )
     })
 
     
@@ -121,10 +122,14 @@ export default {
         array d'objectes del tipus { id, materia, objPR }
       */
       var arrOriginal = this.$store.state.modulPR.arrPRSeleccionades
+      // console.log("arrOriginal:")
+      // console.log(arrOriginal)
       var arrPR = []
 
-      arrOriginal.forEach( function(objOrig, index, array) {
-        objOrig.PR.forEach( function( objPR, idx, arrPR2) {
+      arrOriginal.forEach( function(objOrig ) {
+        // console.log("objOrig.PR")
+        // console.log(objOrig.PR)
+        objOrig.PR.forEach( function( objPR ) {
             arrPR.push({
               id: objOrig.id,
               materia: objOrig.label,
