@@ -47,8 +47,8 @@
               </template>
               
               <q-card bordered flat>
-                <q-card-section>
-                  {{ obj.objPR.resposta}}
+                <q-card-section v-html="resposta2(obj.objPR.resposta)">
+                  <!-- {{ obj.objPR.resposta}} -->
                 </q-card-section>
               </q-card>
            </q-expansion-item>
@@ -239,9 +239,12 @@ export default {
     nota: function() {
       var nota = (this.sumar() / this.arrPRSeleccionadesAleatories.length) * 10
       return Math.round(nota * 100) / 100
+    },
+
+
+    resposta2: function( str ) {
+      return str.replace(/\n/ig,"<br/><br/>")
     }
-
-
   
   }
 

@@ -43,8 +43,8 @@
 
                 <!-- <q-separator color="red-10"/> -->
 
-                <div class="">
-                  {{ PR.resposta}}
+                <div v-html="resposta2(PR.resposta)">
+                  <!-- {{ PR.resposta}} -->
                 </div>
               </q-card-section>
               
@@ -141,7 +141,13 @@ export default {
   		}
 
 
-  	}
+  	},
+
+
+    resposta2: function( str ) {
+      return str.replace(/\n/ig,"<br/><br/>")
+    }
+
 
 
   }
