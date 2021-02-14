@@ -37,7 +37,7 @@
 
             <q-card  v-for="(PR, index) in item.arrPreguntesRespostes" :key="`item.arrPreguntesRespostes-${index}`" bordered flat>
               <q-card-section>
-                <div class="text-red-10 q-mb-sm">
+                <div class="text-white bg-grey-9 text-bold q-mb-sm q-pa-sm">
                   {{ PR.pregunta}}
                 </div>
 
@@ -145,7 +145,7 @@ export default {
 
 
     resposta2: function( str ) {
-      return str.replace(/\n/ig,"<br/><br/>")
+      return str.replace(/\n/ig,"<br/>")
     }
 
 
