@@ -4,7 +4,7 @@ arrCursAuditories =
 		materia: "Curs Auditories",
 		subMateria: [
 			{
-				materia: "UC01 - Conocer la Importancia de la Norma ISO 27001 en el SGSI de una EmpresaPaquete SCORM",
+				materia: "UC01 - Importancia de la Norma ISO 27001 en el SGSI",
 				subMateria: [
 					{
 						materia: "Sistemas de información",
@@ -155,7 +155,116 @@ arrCursAuditories =
 							},
 						]
 					},
-         
+					{
+						materia: "Objetivos de la política de la seguridad de la información",
+						subMateria: [
+							{
+								materia: "Aspectos básicos",
+								PR: [
+									{
+										pregunta: "A quien se debe comunicar la documentación de las políticas de la seguridad de la información",
+										resposta: "a todos los empleados y partes externas relevantes."
+									},
+									{
+										pregunta: "Cuando debe hacerse la revision de las políticas de seguridad de la información",
+										resposta: "regularmente a intervalos planeados o bien en el caso de que ocurrieran cambios significativos"
+									}
+								]
+							},
+							{
+								materia: "Organización de la seguridad de la información",
+								PR: [
+									{
+										pregunta: "Cual es la finalidad de una organización INTERNA",
+										resposta: "establecer un marco de trabajo para iniciar y controlar la implementación de la información dentro de esta.\n Todas las responsabilidades de seguridad de la información deben estar definidas y asignadas."
+									},
+									{
+										pregunta: "Cual es la finalidad en relación a entidades EXTERNAS",
+										resposta: "mantener la seguridad de la información de la organización y de sus medios de procesamiento de información, a los que tienen acceso o son manejados por entidades externas."
+									},
+									{
+										pregunta: "Actuaciones a hacer en la seguridad frente a entidades EXTERNAS",
+										resposta: "POLITICAS PARA RELACIONES CON PROVEEDORES: deben acordarse los requisitos de la seguridad de la información para disminuir los riesgos asociados con el acceso dado al proveedor.\nTENER EN CUENTA LA SEGURIDAD EN LOS ACUERDOS CON LOS PROVEEDORES: Todos los requisitos de la seguridad de la información deben estar acordados y establecidos con cada proveedor"
+									}
+								]
+							}
+						]
+					},
+					{
+						materia: "Conceptos de seguridad informática.",
+						subMateria: [
+							{
+								materia: "Definiciones básicas",
+								PR: [
+									{
+										pregunta: "Activo",
+										resposta: "Recurso del sistema de información o relacionado con este necesario para que la organización funcione correctamente y alcance los objetivos propuestos por su dirección."
+									},
+									{
+										pregunta: "Amenaza",
+										resposta: "Evento que puede desencadenar un incidente en la organización, produciendo daños o pérdidas materiales o inmateriales en sus activos."
+									},
+									{
+										pregunta: "Riesgo",
+										resposta: "Posibilidad de que una amenaza se materialice."
+									},
+									{
+										pregunta: "Impacto",
+										resposta: "Consecuencia sobre un activo de la materialización de una amenaza."
+									},
+									{
+										pregunta: "Control",
+										resposta: "Práctica, procedimiento o mecanismo que reduce el nivel de riesgo."
+									},
+								]
+							},
+							{
+								materia: "Seguridad informática y seguridad de la información",
+								PR: [
+									{
+										pregunta: "Que es la seguridad informatica?",
+										resposta: "Son medidas encaminadas a proteger el hardware, el software y las comunicaciones de los equipos informáticos. Estas medidas pueden ser de:\n\nCARACTER FISICO: en las instalaciones mediante perímetros de seguridad cuya finalidad es proteger áreas que contienen información y medios de procesamiento de información.\nTELECOMUNICACIONES Y ACCESO AL SISTEMA: mediante protocolos seguros, encriptación, firewall.\n REALIZACIÓN DE COPIAS DE SEGURIDAD: con el fin de garantizar la información."
+									},
+									{
+										pregunta: "Que es la seguridad de la información?",
+										resposta: "Son medidas encaminadas a proteger la información con independencia del soporte en el que se encuentre. Estas medidas garantizan como mínimo: \n\nCONFIDENCIALIDAD \nINTEGRIDAD \nDISPONIBILIDAD"
+									}
+								]
+							}							
+						]
+					}
+
+				]
+			},
+			{
+				materia: "UC02 - Analizar y Revisar la Norma ISO 27001",
+				subMateria: [
+					{
+						materia: "Normas ISO de la seguridad de la información",
+						subMateria: [
+							{
+								materia: "La familia ISO 2700",
+								PR: [
+									{
+										pregunta: "Que es la ISO",
+										resposta: "La ISO (Internacional Standarization Organization) es la entidad internacional encargada de favorecer la normalización a nivel internacional."
+									},
+									{
+										pregunta: "Existen oficinas de normalización en distintos países. Cual es la de Espanya?",
+										resposta: "AENOR"
+									},
+									{
+										pregunta: "Cual es la finalidad principal de las normas ISO?",
+										resposta: "coordinar y unificar los diferentes usos y aplicaciones con el fin de conseguir una mayor eficacia y eficiencia, así como una reducción en los costes."
+									},
+									{
+										pregunta: "Que numeracion de normas ha assingado la ISO a la SEGURIDAD DE LA INFORMACION?",
+										resposta: "27000 (normas de requisitos y guias de apoyo"
+									}
+								]
+							}
+						]
+					}
 				]
 			}
 		]

@@ -132,11 +132,14 @@ export default {
             }) 
 
 
-  				  arrMateries.pop()
+  				  arrMateries.pop()		// elimina últim element
+						//arrMateries.shift()   // elimina primer element
+
   				  arrPreguntesRespostes = []
   			  
   			  }
   			}
+				console.log(arrLlista)
   			return arrLlista
   		}
 
@@ -145,6 +148,7 @@ export default {
 
 
     resposta2: function( str ) {
+			console.log(str)
       return str.replace(/\n/ig,"<br/>")
     }
 
