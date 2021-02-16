@@ -1,275 +1,624 @@
-arrCursAuditories = 
-[
-	{
-		materia: "Curs Auditories",
-		subMateria: [
-			{
-				materia: "UC01 - Importancia de la Norma ISO 27001 en el SGSI",
-				subMateria: [
-					{
-						materia: "Sistemas de información",
-						subMateria: [
-							{
-								materia: "Concepto",
-								PR:  [
-									{
-										"pregunta" : "Un sistema de información es",
-										"resposta" : "un conjunto de procedimientos ordenados que permiten gestionar la información de la organización"
-									},
-									{
-										"pregunta" : "Un sistema de información debe",
-										"resposta" : "Recoger los datos necesarios y procesarlos adecuadamente con el fin de convertirlos en información.\n	Almacenar la información útil en bases de datos.\n		Proporcionar la información en tiempo y forma a los responsables de la organización."
-									},
-									{
-										"pregunta" : "Objetivo de un sistema de información",
-										"resposta" : "El objetivo fundamental de estos sistemas es proporcionar la información necesaria que facilite la toma de decisiones."
-									},
-									{
-										"pregunta" : "Características de un sistema de información",
-										"resposta" : "INCLUIR SOLO LA INFORMACIÓN ÚTIL: la que no se necesite o sea irrelevante representa una pérdida de tiempo para aquellos que desean usarla, y puede llegar a ocultar información realmente valiosa.\nOFRECER UNA INFORMACIÓN EXACTA: este es un requisito prioritario, ya que si los datos manejados son inexactos, la información carecerá de valor o será engañosa, lo que conducirá en todo caso a la posibilidad de adoptar decisiones erróneas."
-									}
-								]
-							}
-						]
-					},
-					{
-						materia: "Informatización de los sistemas de información",
-						subMateria: [
-							{
-								materia: "Introducción",
-								PR:  [
-									{
-										"pregunta" : "Herramientas de gestión de un sistema de informacion INFORMATIZADO:",
-										"resposta" : "SISTEMAS GESTORES DE BASES DE DATOS: Para construir bases de datos y guardar la información que se desea por la empresa, por ejemplo, la relativa a personal o recursos humanos.\nHOJAS DE CALCULO: Permiten realizar operaciones de forma rápida, en función de las relaciones que el usuario haya establecido previamente.\nPROCESADORES DE TEXTO: Facilitan la creación y organización de textos, y también el intercalado de gráficos para elaborar documentos escritos.\nGRÁFICOS DE NEGOCIOS: Permiten obtener información sobre la evolución de las variables que se deseen conocer del departamento."
-									}
-								]
-							},
-							{
-								materia: "Características del sistema",
-								PR: [	
-									{
-										"pregunta" : "La informatización de los sistemas de información de una empresa debe contemplar una serie de características como",
-										"resposta" : "la confidencialidad, seguridad, flexibilidad, rapidez y fiabilidad"
-									},
-									{
-										"pregunta" : "Caracteristicas de CONFIDENCIALIDAD y SEGURIDAD",
-										"resposta" : "Muchos de los datos que forman parte de estos sistemas informatizados guardan relación con la privacidad de los empleados.\nEs un requisito imprescindible que el acceso a esta información solo contemple a aquellas personas que verdaderamente están autorizadas, ya que aquellos usuarios no autorizados que consigan el acceso a este tipo de información pueden ocasionar múltiples daños, no solo a los afectados sino también a la propia empresa."
-									},
-									{
-										"pregunta" : "MEDIDAS DE SEGURIDAD en cuanto a las caracteristicas de CONFIDENCIALIDAD y SEGURIDAD",
-										"resposta" : "Codificar los datos de forma que el usuario no autorizado no los comprenda.\nPermitir el acceso a diferentes parcelas de la base de datos, únicamente mediante el uso de determinados códigos.\nEstablecer criterios de acceso, como acceder solamente a lo que es necesario saber sobre la información del empleado.\n							Implantar políticas que regulen el uso de información sobre el empleado."
-									},
-									{
-										"pregunta" : "caracteristicas de FLEXIBILIDAD, RAPIDEZ y FIABILIDAD",
-										"resposta" : "Es imprescindible que el sistema sea adaptable en el tiempo a las necesidades del departamento correspondiente.\n	Por ello, los sistemas informatizados deben acompañarse de una adecuada y amplia documentación. De esta forma, se podrá conocer cómo fueron construidos y qué posibilidades de ampliación o compatibilidad presentan.\n	Los sistemas informatizados deben imprimir rapidez o agilidad a las consultas de información, prestando la correspondiente ayuda a las diversas áreas de aplicación."
-									}
-								]
-							},
-							{
-								materia: "Problemas de los sistemas de información",
-								PR: [
-									{
-										"pregunta" : "Principales inconvenientes de los sistemas informatizados",
-										"resposta" : "FALTA DE CLARIDAD DE METAS Y OBJETIVOS: al no estar claras las funciones que estos sistemas deben realizar.\n	SOBREDIMENSIÓN DEL SISTEMA: los objetivos del sistema son demasiado elevados en relación a las capacidades de la organización.\n			FALTA DE INVOLUCRACIÓN DEL USUARIO: en ocasiones no se consigue un verdadero compromiso por parte del usuario."
-									}
-								]
-							}
-						]
-					},
- 					{
-						materia: "Sistema de Gestion de la Seguridad de la Información",
-						subMateria: [
-							{
-								materia: "Implementación",
-								PR: [
-									{
-										"pregunta" : "El sistema de gestión de seguridad de la información (SGSI) está diseñado para",
-										"resposta" : "garantizar el cumplimiento de los controles de seguridad que deben proteger los activos de información de una organización"
-									},
-									{
-										"pregunta" : "En la aplicación del sistema de gestión de la seguridad de la información se adopta el modelo",
-										"resposta" : "Planear-Hacer-Chequear-Actuar (PDCA), que se puede aplicar a todos los procesos de un sistema de gestión de la seguridad de la información."
-									},
-									{
-										"pregunta" : "Del modelo PDCA - 'PLAN' (PLANIFICAR)",
-										"resposta" : "Se fijarán la política, objetivos, procesos y procedimientos del sistema de seguridad de la información relevantes para manejar el riesgo y mejorar la seguridad de la información de acuerdo con las políticas y objetivos generales de la organización."
-									},
-									{
-										"pregunta" : "Del modelo PDCA - 'DO' (HACER)",
-										"resposta" : "implementar la política, los controles y los procesos y procedimientos del sistema de gestión de seguridad de la información"
-									},
-									{
-										"pregunta" : "Del modelo PDCA - 'ACT' (ACTUAR)",
-										"resposta" : "Se adoptarán acciones correctivas y preventivas, basadas en los resultados de la auditoria interna del sistema de gestión de la seguridad de la información, juntamente con la revisión gerencial y cualquier otra información relevante con el fin de lograr la mejora continua del SGSI."
-									},
-									{
-										"pregunta" : "Del modelo PDCA - 'Check' (Verificar)",
-										"resposta" : "Se evaluará y medirá el desempeño del proceso en comparación con la política, objetivos y experiencias establecidas en el sistema de gestión de la seguridad de la información."
-									}
-								]
-							},
-							{
-								materia: "Consideraciones sobre el SGSI",
-								subMateria: [
-									{
-										materia: "Requerimientos generales de un SGSI",
-										PR: [
-											{
-												"pregunta": "Claves para la implementación de un SGSI",
-												"resposta": "Definir el ALCANCE y los LÍMITES del sistema de gestión de seguridad de la información de acuerdo a las características de la organización, los aspectos internos y externos relevantes que afecten a la seguridad de la información, y las necesidades y expectativas de las partes interesadas.\n	Determinar una POLÍTICA del sistema de gestión de la seguridad de la información en la que se incluya un MARCO REFERENCIAL PARA ESTABLECER SUS OBJETIVOS, IDENTIFICANDO LOS RIESGOS, AMENAZAS Y VULNERABILIDADES que se podrían producir."
-											}
-										]
-									},
-									{
-										materia: "Implementar y operar un SGSI",
-										PR: [
-											{
-												"pregunta" : "La organización debe formular un plan de tratamiento de riesgo que identifique",
-												"resposta" : "las acciones apropiadas, los recursos, las responsabilidades y las prioridades para manejar los riesgos de la seguridad de la información."
-											},
-											{
-												"pregunta": "La documentación del sistema de gestión de seguridad de la información debe incluir:",
-												"resposta": "Política, alcance y objetivos del SGSI.\n												Procedimientos y controles de soporte del SGSI.\n												Registros requeridos por el estándar internacional."
-											}
-										]
-									},
-									{
-										materia: "monitorear y revisar el SGSI",
-										PR: [
-											{
-												"pregunta" : "La organización debe:",
-												"resposta" : "realizar PROCEDIMIENTOS DE REVISION y CONTROLES (auditorías) que permitan detecta ERRORES de procesamiento (identificando las incidencias y violaciones de seguridad)"
-											}
-										]
-									},
-									{
-										materia: "Mantenimiento y mejora del SGSI",
-										PR: [
-											{
-												"pregunta": "la organización deberá:",
-												"resposta" : "IMPLEMENTAR LAS MEJORAS identificadas en el sistema de gestión de seguridad de la información, adoptando las ACCIONES CORRECTIVAS Y PREVENTIVAS apropiadas.\n	COMUNICAR LOS RESULTADOS Y ACCIONES a todas las partes interesadas con un nivel de detalle apropiado de acuerdo a las circunstancias y cuando sea relevante acordar cómo proceder, asegurándose que las mejoras logren los objetivos señalados."
-											}
-										]
-									}
-								]	
-							},
-						]
-					},
-					{
-						materia: "Objetivos de la política de la seguridad de la información",
-						subMateria: [
-							{
-								materia: "Aspectos básicos",
-								PR: [
-									{
-										pregunta: "A quien se debe comunicar la documentación de las políticas de la seguridad de la información",
-										resposta: "a todos los empleados y partes externas relevantes."
-									},
-									{
-										pregunta: "Cuando debe hacerse la revision de las políticas de seguridad de la información",
-										resposta: "regularmente a intervalos planeados o bien en el caso de que ocurrieran cambios significativos"
-									}
-								]
-							},
-							{
-								materia: "Organización de la seguridad de la información",
-								PR: [
-									{
-										pregunta: "Cual es la finalidad de una organización INTERNA",
-										resposta: "establecer un marco de trabajo para iniciar y controlar la implementación de la información dentro de esta.\n Todas las responsabilidades de seguridad de la información deben estar definidas y asignadas."
-									},
-									{
-										pregunta: "Cual es la finalidad en relación a entidades EXTERNAS",
-										resposta: "mantener la seguridad de la información de la organización y de sus medios de procesamiento de información, a los que tienen acceso o son manejados por entidades externas."
-									},
-									{
-										pregunta: "Actuaciones a hacer en la seguridad frente a entidades EXTERNAS",
-										resposta: "POLITICAS PARA RELACIONES CON PROVEEDORES: deben acordarse los requisitos de la seguridad de la información para disminuir los riesgos asociados con el acceso dado al proveedor.\nTENER EN CUENTA LA SEGURIDAD EN LOS ACUERDOS CON LOS PROVEEDORES: Todos los requisitos de la seguridad de la información deben estar acordados y establecidos con cada proveedor"
-									}
-								]
-							}
-						]
-					},
-					{
-						materia: "Conceptos de seguridad informática.",
-						subMateria: [
-							{
-								materia: "Definiciones básicas",
-								PR: [
-									{
-										pregunta: "Activo",
-										resposta: "Recurso del sistema de información o relacionado con este necesario para que la organización funcione correctamente y alcance los objetivos propuestos por su dirección."
-									},
-									{
-										pregunta: "Amenaza",
-										resposta: "Evento que puede desencadenar un incidente en la organización, produciendo daños o pérdidas materiales o inmateriales en sus activos."
-									},
-									{
-										pregunta: "Riesgo",
-										resposta: "Posibilidad de que una amenaza se materialice."
-									},
-									{
-										pregunta: "Impacto",
-										resposta: "Consecuencia sobre un activo de la materialización de una amenaza."
-									},
-									{
-										pregunta: "Control",
-										resposta: "Práctica, procedimiento o mecanismo que reduce el nivel de riesgo."
-									},
-								]
-							},
-							{
-								materia: "Seguridad informática y seguridad de la información",
-								PR: [
-									{
-										pregunta: "Que es la seguridad informatica?",
-										resposta: "Son medidas encaminadas a proteger el hardware, el software y las comunicaciones de los equipos informáticos. Estas medidas pueden ser de:\n\nCARACTER FISICO: en las instalaciones mediante perímetros de seguridad cuya finalidad es proteger áreas que contienen información y medios de procesamiento de información.\nTELECOMUNICACIONES Y ACCESO AL SISTEMA: mediante protocolos seguros, encriptación, firewall.\n REALIZACIÓN DE COPIAS DE SEGURIDAD: con el fin de garantizar la información."
-									},
-									{
-										pregunta: "Que es la seguridad de la información?",
-										resposta: "Son medidas encaminadas a proteger la información con independencia del soporte en el que se encuentre. Estas medidas garantizan como mínimo: \n\nCONFIDENCIALIDAD \nINTEGRIDAD \nDISPONIBILIDAD"
-									}
-								]
-							}							
-						]
-					}
+arrCursAuditories =
+	[
+		{
+			materia: "Curs Auditories",
+			subMateria: [
+				{
+					materia: "UC01 - Importancia de la Norma ISO 27001 en el SGSI",
+					subMateria: [
+						{
+							materia: "Sistemas de información",
+							subMateria: [
+								{
+									materia: "Concepto",
+									PR: [
+										{
+											"pregunta": "Un sistema de información es",
+											"resposta": "un conjunto de procedimientos ordenados que permiten gestionar la información de la organización"
+										},
+										{
+											"pregunta": "Un sistema de información debe",
+											"resposta": "Recoger los datos necesarios y procesarlos adecuadamente con el fin de convertirlos en información.\n	Almacenar la información útil en bases de datos.\n		Proporcionar la información en tiempo y forma a los responsables de la organización."
+										},
+										{
+											"pregunta": "Objetivo de un sistema de información",
+											"resposta": "El objetivo fundamental de estos sistemas es proporcionar la información necesaria que facilite la toma de decisiones."
+										},
+										{
+											"pregunta": "Características de un sistema de información",
+											"resposta": "INCLUIR SOLO LA INFORMACIÓN ÚTIL: la que no se necesite o sea irrelevante representa una pérdida de tiempo para aquellos que desean usarla, y puede llegar a ocultar información realmente valiosa.\nOFRECER UNA INFORMACIÓN EXACTA: este es un requisito prioritario, ya que si los datos manejados son inexactos, la información carecerá de valor o será engañosa, lo que conducirá en todo caso a la posibilidad de adoptar decisiones erróneas."
+										}
+									]
+								}
+							]
+						},
+						{
+							materia: "Informatización de los sistemas de información",
+							subMateria: [
+								{
+									materia: "Introducción",
+									PR: [
+										{
+											"pregunta": "Herramientas de gestión de un sistema de informacion INFORMATIZADO:",
+											"resposta": "SISTEMAS GESTORES DE BASES DE DATOS: Para construir bases de datos y guardar la información que se desea por la empresa, por ejemplo, la relativa a personal o recursos humanos.\nHOJAS DE CALCULO: Permiten realizar operaciones de forma rápida, en función de las relaciones que el usuario haya establecido previamente.\nPROCESADORES DE TEXTO: Facilitan la creación y organización de textos, y también el intercalado de gráficos para elaborar documentos escritos.\nGRÁFICOS DE NEGOCIOS: Permiten obtener información sobre la evolución de las variables que se deseen conocer del departamento."
+										}
+									]
+								},
+								{
+									materia: "Características del sistema",
+									PR: [
+										{
+											"pregunta": "La informatización de los sistemas de información de una empresa debe contemplar una serie de características como",
+											"resposta": "la confidencialidad, seguridad, flexibilidad, rapidez y fiabilidad"
+										},
+										{
+											"pregunta": "Caracteristicas de CONFIDENCIALIDAD y SEGURIDAD",
+											"resposta": "Muchos de los datos que forman parte de estos sistemas informatizados guardan relación con la privacidad de los empleados.\nEs un requisito imprescindible que el acceso a esta información solo contemple a aquellas personas que verdaderamente están autorizadas, ya que aquellos usuarios no autorizados que consigan el acceso a este tipo de información pueden ocasionar múltiples daños, no solo a los afectados sino también a la propia empresa."
+										},
+										{
+											"pregunta": "MEDIDAS DE SEGURIDAD en cuanto a las caracteristicas de CONFIDENCIALIDAD y SEGURIDAD",
+											"resposta": "Codificar los datos de forma que el usuario no autorizado no los comprenda.\nPermitir el acceso a diferentes parcelas de la base de datos, únicamente mediante el uso de determinados códigos.\nEstablecer criterios de acceso, como acceder solamente a lo que es necesario saber sobre la información del empleado.\n							Implantar políticas que regulen el uso de información sobre el empleado."
+										},
+										{
+											"pregunta": "caracteristicas de FLEXIBILIDAD, RAPIDEZ y FIABILIDAD",
+											"resposta": "Es imprescindible que el sistema sea adaptable en el tiempo a las necesidades del departamento correspondiente.\n	Por ello, los sistemas informatizados deben acompañarse de una adecuada y amplia documentación. De esta forma, se podrá conocer cómo fueron construidos y qué posibilidades de ampliación o compatibilidad presentan.\n	Los sistemas informatizados deben imprimir rapidez o agilidad a las consultas de información, prestando la correspondiente ayuda a las diversas áreas de aplicación."
+										}
+									]
+								},
+								{
+									materia: "Problemas de los sistemas de información",
+									PR: [
+										{
+											"pregunta": "Principales inconvenientes de los sistemas informatizados",
+											"resposta": "FALTA DE CLARIDAD DE METAS Y OBJETIVOS: al no estar claras las funciones que estos sistemas deben realizar.\n	SOBREDIMENSIÓN DEL SISTEMA: los objetivos del sistema son demasiado elevados en relación a las capacidades de la organización.\n			FALTA DE INVOLUCRACIÓN DEL USUARIO: en ocasiones no se consigue un verdadero compromiso por parte del usuario."
+										}
+									]
+								}
+							]
+						},
+						{
+							materia: "Sistema de Gestion de la Seguridad de la Información",
+							subMateria: [
+								{
+									materia: "Implementación",
+									PR: [
+										{
+											"pregunta": "El sistema de gestión de seguridad de la información (SGSI) está diseñado para",
+											"resposta": "garantizar el cumplimiento de los controles de seguridad que deben proteger los activos de información de una organización"
+										},
+										{
+											"pregunta": "En la aplicación del sistema de gestión de la seguridad de la información se adopta el modelo",
+											"resposta": "Planear-Hacer-Chequear-Actuar (PDCA), que se puede aplicar a todos los procesos de un sistema de gestión de la seguridad de la información."
+										},
+										{
+											"pregunta": "Del modelo PDCA - 'PLAN' (PLANIFICAR)",
+											"resposta": "Se fijarán la política, objetivos, procesos y procedimientos del sistema de seguridad de la información relevantes para manejar el riesgo y mejorar la seguridad de la información de acuerdo con las políticas y objetivos generales de la organización."
+										},
+										{
+											"pregunta": "Del modelo PDCA - 'DO' (HACER)",
+											"resposta": "implementar la política, los controles y los procesos y procedimientos del sistema de gestión de seguridad de la información"
+										},
+										{
+											"pregunta": "Del modelo PDCA - 'ACT' (ACTUAR)",
+											"resposta": "Se adoptarán acciones correctivas y preventivas, basadas en los resultados de la auditoria interna del sistema de gestión de la seguridad de la información, juntamente con la revisión gerencial y cualquier otra información relevante con el fin de lograr la mejora continua del SGSI."
+										},
+										{
+											"pregunta": "Del modelo PDCA - 'Check' (Verificar)",
+											"resposta": "Se evaluará y medirá el desempeño del proceso en comparación con la política, objetivos y experiencias establecidas en el sistema de gestión de la seguridad de la información."
+										}
+									]
+								},
+								{
+									materia: "Consideraciones sobre el SGSI",
+									subMateria: [
+										{
+											materia: "Requerimientos generales de un SGSI",
+											PR: [
+												{
+													"pregunta": "Claves para la implementación de un SGSI",
+													"resposta": "Definir el ALCANCE y los LÍMITES del sistema de gestión de seguridad de la información de acuerdo a las características de la organización, los aspectos internos y externos relevantes que afecten a la seguridad de la información, y las necesidades y expectativas de las partes interesadas.\n	Determinar una POLÍTICA del sistema de gestión de la seguridad de la información en la que se incluya un MARCO REFERENCIAL PARA ESTABLECER SUS OBJETIVOS, IDENTIFICANDO LOS RIESGOS, AMENAZAS Y VULNERABILIDADES que se podrían producir."
+												}
+											]
+										},
+										{
+											materia: "Implementar y operar un SGSI",
+											PR: [
+												{
+													"pregunta": "La organización debe formular un plan de tratamiento de riesgo que identifique",
+													"resposta": "las acciones apropiadas, los recursos, las responsabilidades y las prioridades para manejar los riesgos de la seguridad de la información."
+												},
+												{
+													"pregunta": "La documentación del sistema de gestión de seguridad de la información debe incluir:",
+													"resposta": "Política, alcance y objetivos del SGSI.\n												Procedimientos y controles de soporte del SGSI.\n												Registros requeridos por el estándar internacional."
+												}
+											]
+										},
+										{
+											materia: "monitorear y revisar el SGSI",
+											PR: [
+												{
+													"pregunta": "La organización debe:",
+													"resposta": "realizar PROCEDIMIENTOS DE REVISION y CONTROLES (auditorías) que permitan detecta ERRORES de procesamiento (identificando las incidencias y violaciones de seguridad)"
+												}
+											]
+										},
+										{
+											materia: "Mantenimiento y mejora del SGSI",
+											PR: [
+												{
+													"pregunta": "la organización deberá:",
+													"resposta": "IMPLEMENTAR LAS MEJORAS identificadas en el sistema de gestión de seguridad de la información, adoptando las ACCIONES CORRECTIVAS Y PREVENTIVAS apropiadas.\n	COMUNICAR LOS RESULTADOS Y ACCIONES a todas las partes interesadas con un nivel de detalle apropiado de acuerdo a las circunstancias y cuando sea relevante acordar cómo proceder, asegurándose que las mejoras logren los objetivos señalados."
+												}
+											]
+										}
+									]
+								},
+							]
+						},
+						{
+							materia: "Objetivos de la política de la seguridad de la información",
+							subMateria: [
+								{
+									materia: "Aspectos básicos",
+									PR: [
+										{
+											pregunta: "A quien se debe comunicar la documentación de las políticas de la seguridad de la información",
+											resposta: "a todos los empleados y partes externas relevantes."
+										},
+										{
+											pregunta: "Cuando debe hacerse la revision de las políticas de seguridad de la información",
+											resposta: "regularmente a intervalos planeados o bien en el caso de que ocurrieran cambios significativos"
+										}
+									]
+								},
+								{
+									materia: "Organización de la seguridad de la información",
+									PR: [
+										{
+											pregunta: "Cual es la finalidad de una organización INTERNA",
+											resposta: "establecer un marco de trabajo para iniciar y controlar la implementación de la información dentro de esta.\n Todas las responsabilidades de seguridad de la información deben estar definidas y asignadas."
+										},
+										{
+											pregunta: "Cual es la finalidad en relación a entidades EXTERNAS",
+											resposta: "mantener la seguridad de la información de la organización y de sus medios de procesamiento de información, a los que tienen acceso o son manejados por entidades externas."
+										},
+										{
+											pregunta: "Actuaciones a hacer en la seguridad frente a entidades EXTERNAS",
+											resposta: "POLITICAS PARA RELACIONES CON PROVEEDORES: deben acordarse los requisitos de la seguridad de la información para disminuir los riesgos asociados con el acceso dado al proveedor.\nTENER EN CUENTA LA SEGURIDAD EN LOS ACUERDOS CON LOS PROVEEDORES: Todos los requisitos de la seguridad de la información deben estar acordados y establecidos con cada proveedor"
+										}
+									]
+								}
+							]
+						},
+						{
+							materia: "Conceptos de seguridad informática.",
+							subMateria: [
+								{
+									materia: "Definiciones básicas",
+									PR: [
+										{
+											pregunta: "Activo",
+											resposta: "Recurso del sistema de información o relacionado con este necesario para que la organización funcione correctamente y alcance los objetivos propuestos por su dirección."
+										},
+										{
+											pregunta: "Amenaza",
+											resposta: "Evento que puede desencadenar un incidente en la organización, produciendo daños o pérdidas materiales o inmateriales en sus activos."
+										},
+										{
+											pregunta: "Riesgo",
+											resposta: "Posibilidad de que una amenaza se materialice."
+										},
+										{
+											pregunta: "Impacto",
+											resposta: "Consecuencia sobre un activo de la materialización de una amenaza."
+										},
+										{
+											pregunta: "Control",
+											resposta: "Práctica, procedimiento o mecanismo que reduce el nivel de riesgo."
+										},
+									]
+								},
+								{
+									materia: "Seguridad informática y seguridad de la información",
+									PR: [
+										{
+											pregunta: "Que es la seguridad informatica?",
+											resposta: "Son medidas encaminadas a proteger el hardware, el software y las comunicaciones de los equipos informáticos. Estas medidas pueden ser de:\n\nCARACTER FISICO: en las instalaciones mediante perímetros de seguridad cuya finalidad es proteger áreas que contienen información y medios de procesamiento de información.\nTELECOMUNICACIONES Y ACCESO AL SISTEMA: mediante protocolos seguros, encriptación, firewall.\n REALIZACIÓN DE COPIAS DE SEGURIDAD: con el fin de garantizar la información."
+										},
+										{
+											pregunta: "Que es la seguridad de la información?",
+											resposta: "Son medidas encaminadas a proteger la información con independencia del soporte en el que se encuentre. Estas medidas garantizan como mínimo: \n\nCONFIDENCIALIDAD \nINTEGRIDAD \nDISPONIBILIDAD"
+										}
+									]
+								}
+							]
+						}
 
-				]
-			},
-			{
-				materia: "UC02 - Analizar y Revisar la Norma ISO 27001",
-				subMateria: [
-					{
-						materia: "Normas ISO de la seguridad de la información",
-						subMateria: [
-							{
-								materia: "La familia ISO 2700",
-								PR: [
-									{
-										pregunta: "Que es la ISO",
-										resposta: "La ISO (Internacional Standarization Organization) es la entidad internacional encargada de favorecer la normalización a nivel internacional."
-									},
-									{
-										pregunta: "Existen oficinas de normalización en distintos países. Cual es la de Espanya?",
-										resposta: "AENOR"
-									},
-									{
-										pregunta: "Cual es la finalidad principal de las normas ISO?",
-										resposta: "coordinar y unificar los diferentes usos y aplicaciones con el fin de conseguir una mayor eficacia y eficiencia, así como una reducción en los costes."
-									},
-									{
-										pregunta: "Que numeracion de normas ha assingado la ISO a la SEGURIDAD DE LA INFORMACION?",
-										resposta: "27000 (normas de requisitos y guias de apoyo"
-									}
-								]
-							}
-						]
-					}
-				]
-			}
-		]
-	},
+					]
+				},
+				{
+					materia: "UC02 - Analizar y Revisar la Norma ISO 27001",
+					subMateria: [
+						{
+							materia: "Normas ISO de la seguridad de la información",
+							subMateria: [
+								{
+									materia: "La familia ISO 2700",
+									PR: [
+										{
+											pregunta: "Que es la ISO",
+											resposta: "La ISO (Internacional Standarization Organization) es la entidad internacional encargada de favorecer la normalización a nivel internacional."
+										},
+										{
+											pregunta: "Existen oficinas de normalización en distintos países. Cual es la de Espanya?",
+											resposta: "AENOR"
+										},
+										{
+											pregunta: "Cual es la finalidad principal de las normas ISO?",
+											resposta: "coordinar y unificar los diferentes usos y aplicaciones con el fin de conseguir una mayor eficacia y eficiencia, así como una reducción en los costes."
+										},
+										{
+											pregunta: "Que numeracion de normas ha assingado la ISO a la SEGURIDAD DE LA INFORMACION?",
+											resposta: "27000 (normas de requisitos y guias de apoyo"
+										},
+										{
+											pregunta: "Cuales son las principales normas de la familia ISO 27000?",
+											resposta: "ISO 27001: requisitos del sistema de seguridad de la información.\n ISO 27002: guia de buenas practicas para los controles en la seguridad de la información"
+										},
+										{
+											pregunta: "Normas ISO de seguridad de la información que COMPLEMENTAN a las 2 normas principales:",
+											resposta: "ISO 27007: guía de auditoría de un sistema de gestión de la seguridad de la información.\nISO 27011: guía de gestión de seguridad de la información específica para telecomunicaciones.\n ISO 27032: guía relativa a la ciberseguridad\nISO 27799: adaptación de los controles de la norma ISO 27002 en el sector sanitario."
+										}
+									]
+								}
+							]
+						},
+						{
+							materia: "Introducción a la ISO 27001",
+							subMateria: [
+								{
+									materia: "Origen de la ISO 27001",
+									PR: [
+										{
+											pregunta: "Cual es el contenido de la norma ISO 27001",
+											resposta: " contiene los REQUISITOS del SISTEMA DE SEGURIDAD DE LA INFORMACIÓN."
+										},
+										{
+											pregunta: "En que otra norma tiene su origen?",
+											resposta: "en la BS 7799-2:2002"
+										},
+										{
+											pregunta: "Cual es el objetivo de la ISO 27001?",
+											resposta: " proporcionar una BASE COMÚN para la elaboración de las NORMAS DE SEGURIDAD DE LAS ORGANIZACIONES, configurando un MÉTODO DE GESTIÓN EFICAZ DE LA SEGURIDAD, y estableciendo informes de confianza en las transacciones y las relaciones entre las empresas."
+										},
+										{
+											pregunta: "Que es la ISO 27001 para los auditores externos?",
+											resposta: "ISO 27001 es la norma en base a la cual, auditores externos a la empresa, CERTIFICAN LOS SISTEMAS DE GESTIÓN DE SEGURIDAD DE LA INFORMACIÓN de las organizaciones.\n\nNo obstante, el hecho de estar certificado en ISO 27001 no prueba que la organización sea 100% segura."
+										}
+									]
+								},
+								{
+									materia: "Utilidad de la ISO 27001",
+									PR: [
+										{
+											pregunta: "Cual es uno de los puntos fundamentales de la ISO 27001?",
+											resposta: "La autoridad y compromiso decidido de la dirección de la empresa, incluso si el alcance inicialmente es muy reducido."
+										},
+										{
+											pregunta: "es posible alcanzar la conformidad con la norma sin la certificación?",
+											resposta: "Sí, es posible; en estos casos el cumplimiento de los requisitos establecidos por la norma permitirá alcanzar el éxito en la gestión de la seguridad de la información de la empresa."
+										},
+										{
+											pregunta: "Ventajas de la ISO 27001 en el AMBITO ORGANIZAIONAL",
+											resposta: "SE GENERA UN IMPORTANTE COMPROMISO: El registro (certificado) permite garantizar y demostrar la eficacia de los esfuerzos desarrollados para asegurar la organización en todos sus niveles, y probar la diligencia razonable de sus administradores."
+										},
+										{
+											pregunta: "Ventajas de la ISO 27001 en EL CUMPLIMIENTO LEGAL DE LAS EXIGENCIAS",
+											resposta: "SE MANIFIESTA CONFORMIDAD EN EL CUMPLIMIENTO DE LOS REQUISITOS LEGALES: El registro permite demostrar a las autoridades competentes que la organización observa todas las leyes y normativas aplicables."
+										},
+										{
+											pregunta: "Ventajas de la ISO 27001 en EL AMBITO FUNCIONAL",
+											resposta: "SE DESARROLLA UNA ADECUADA GESTIÓN DE LOS RIESGOS: Permitirá obtener un mejor conocimiento de los sistemas de información, sus problemas y los medios de protección, garantizando también una mejor disponibilidad de los materiales y datos."
+										},
+										{
+											pregunta: "Ventajas de la ISO 27001 en EL AMBITO COMERCIAL",
+											resposta: "SE GENERA CREDIBILIDAD Y CONFIANZA: Por tanto, los socios, los accionistas y los clientes se tranquilizan al constatar la importancia que la organización concede a la protección de la información. Una certificación también puede brindar una diferenciación sobre la competencia y en el mercado. Asimismo, algunas licitaciones internacionales ya comienzan a pedir una gestión ISO 27001."
+										},
+										{
+											pregunta: "Ventajas de la ISO 27001 en EL ASPECTO FINANCIERO",
+											resposta: "Se puede conseguir una REDUCCIÓN DE LOS COSTES vinculados a los incidentes y también la posibilidad de DISMINUIR LAS PRIMAS DE SEGURO."
+										},
+										{
+											pregunta: "Ventajas de la ISO 27001 en EL ASEPECTO HUMANO",
+											resposta: "MEJORA DE LA SENSIBILIZACIÓN DEL PERSONAL en relación a la seguridad y a sus responsabilidades en la organización."
+										},
+									]
+								},
+								{
+									materia: "Ventajas de la obtención del certificado ISO 27001",
+									PR: [
+										{
+											pregunta: "Que implica un certificado expedido por un organismo reconocido?",
+											resposta: " identifica la CONFORMIDAD del Sistema de Gestión de Seguridad de la información de la empresa DE ACUERDO CON LA NORMA ISO, en la que se basó dicho sistema"
+										},
+										{
+											pregunta: "Que asegura tener un certificado de cara al exterior a la organización?",
+											resposta: "que la organización cumple con el sistema de gestión implantado. Eso genera prestigio empresarial y es una garantía de competitividad en el mercado."
+										},
+										{
+											pregunta: "Quien va a decidir si una organización merece encontrarse y permanecer en el mercado a pesar de tener un certficado ISO?",
+											resposta: "Los clientes, ya que son los que realmente van a certificar el sistema de gestión de la seguridad de la información implantado."
+										}
+									]
+								}
+							]
+						},
+						{
+							materia: "Estructura y filosofía de la ISO 27001",
+							subMateria: [
+								{
+									materia: "Estructura",
+									PR: [
+										{
+											pregunta: "Cual es el ALCANCE de la ISO 27001?",
+											resposta: "Aunque esta norma se puede aplicar a todos los tipos de organización, es necesario DEFINIR EL TAMAÑO DE LAS ORGANIZACIONES A LAS QUE VA DIRIGIDA.\nTambién, es conveniente ESPECIFICAR LOS REQUISITOS ADECUADOS para la implementación de los controles de seguridad adaptados a las necesidades de las organizaciones o bien a partes de estas."
+										},
+										{
+											pregunta: "La ISO 27001, a que otras normas toma como referencia?",
+											resposta: "En esta Norma es necesaria la utilización de la norma ISO IEC 27002: 2013 Tecnología de la información. Técnicas de seguridad-Código de buenas Prácticas para la Gestión de Seguridad de la Información.\n\nEsta norma hace referencia a otras:\n- ISO/IEC 27003: Guía implantación del SGSI.\n- ISO/IEC 27004: Medición.\n- ISO/IEC 27005: Gestión de Riesgos de Seguridad de la Información."
+										},
+										{
+											pregunta: "De donde provienen los Términos y definiciones de la ISO 27001?",
+											resposta: "Del contenido de la norma ISO/IEC 27000."
+										},
+										{
+											pregunta: "Que implica el CONTEXTO DE LA ORGANIZACIÓN en referencia a la ISO 27001?",
+											resposta: "ENTENDIMIENTO DE LA ORGANIZACIÓN Y SU CONTEXTO: requiere identificar todos los elementos internos y externos con impacto en la consecución de los objetivos del SGSI.\n\nEXPECTATIVAS DE LAS PARTES INTERESADAS: es obligatorio identificar claramente los requisitos y expectativas de todas las partes interesadas, incluyendo los aspectos legales, contractuales y regulatorios.\n\nALCANCE DEL SGSI: los límites del SGSI estarán documentado y estarán condicionados por los puntos anteriores, así como por las dependencias e interfaces internas y externas con otras organizaciones."
+										},
+										{
+											pregunta: "Que implica el LIDERAZGO en referencia a la ISO 27001?",
+											resposta: "LIDERAZGO Y COMPROMISO DE LA ALTA DIRECCIÓN: mostrando evidencias como el establecimiento, implementación, revisión, mantenimiento y mejora del SGSI, evidenciando que se proveen los recursos necesarios para el desarrollo del sistema.\n\NPOLÍTICA: diseño, despliegue y comunicación del marco global que incluya el compromiso permanente de la dirección en cuanto a su cumplimiento y mejora continua.\n\nROLES, RESPONSABILIDADES Y AUTORIDADES DE LA ORGANIZACIÓN: las responsabilidades y autoridades están debidamente asignadas y comunicadas, así como el reporte del funcionamiento del SGSI a la alta dirección."
+										},
+										{
+											pregunta: "Que implica la PLANIFICACIÓN en referencia a la ISO 27001?",
+											resposta: "ACCIONES PARA ABORDAR LOS RIESGOS Y OPORTUNIDADES: la organización debe definir y aplicar un proceso de evaluación de los riesgos de seguridad de la información, estableciendo los criterios de análisis que permitan identificar, analizar y evaluar los riesgos resultantes, para posteriormente realizar un adecuado tratamiento y selección de los controles más adecuados según el anexo A.\n\nOBJETIVOS DE SEGURIDAD DE LA INFORMACIÓN: se deben establecer objetivos de seguridad que deben ser consistentes con la Política, y medibles, basados en los riesgos del negocio y con un adecuado seguimiento del grado de cumplimiento."
+										},
+										{
+											pregunta: "Características del SOPORTE que debe tener un SGSI?",
+											resposta: "RECURSOS: es necesario demostrar que se han determinado y se proveen los recursos necesarios para el desarrollo del sistema.\n\NCOMPETENCIA: es fundamental garantizar que todo el personal al que se le han asignado responsabilidades en el SGSI es competente para desempeñar las tareas requeridas.\n\nCONCIENCIACIÓN: el personal con tareas dentro del SGSI debe conocer la política de seguridad, su contribución a la efectividad del SGSI y las implicaciones del incumplimiento con los requisitos establecidos.\n\nCOMUNICACIÓN: relativo a la identificación de los canales más efectivos de comunicación internos y externos (quién, cómo, cuándo, cómo y qué).\n\nINFORMACIÓN DOCUMENTADA: aplicación de criterios que aseguren un control a lo largo de todo el ciclo de vida de la documentación sobre la que se construye el SGSI (creación, actualización, distribución, almacenamiento)."
+										},
+										{
+											pregunta: "Implicaciones de la OPERATIVIDAD de la ISO 27001",
+											resposta: "CONTROL Y CONTROL OPERACIONAL: planificar, implantar y controlar los procesos necesarios para cumplir con los requisitos y objetivos de seguridad de la información.\n\nEVALUACIONES DE RIESGOS DE SEGURIDAD DE LA INFORMACIÓN: se deben realizar evaluaciones documentadas de los riesgos de forma periódica y planificada en función de los criterios establecidos.\n\nTRATAMIENTO DE LOS RIESGOS DE SEGURIDAD DE LA INFORMACIÓN: debe implantarse un plan de tratamiento de los riesgos de la información documentado."
+										},
+										{
+											pregunta: "Implicaciones en la EVALUACIÓN DEL DESEMPEÑO de la ISO 27001",
+											resposta: "MEDICIÓN, ANÁLISIS Y EVALUACIÓN: el Sistema de Gestión de la Seguridad de la Información debe asegurar que la organización mejora continuamente su efectividad, determinando cuáles son las necesidades de medición, los métodos más adecuados, la frecuencia y los responsables de su aplicación y análisis.\n\nAUDITORIA INTERNA: garantizando que la organización realiza auditorías internas en los intervalos planificados, por tanto se requiere una formalización del programa de auditorías, los criterios de auditoria, las competencias necesarias para los auditores internos y un análisis y tratamiento adecuado de los resultados obtenidos.\n\n	REVISIÓN POR LA DIRECCIÓN: la alta dirección debe revisar el SGSI a intervalos planificados, para asegurar que continúa siendo idóneo, apropiado y efectivo."
+										},
+										{
+											pregunta: "Implicaciones en la MEJORAS que se desprenden de la ISO 27001",
+											resposta: "NO CONFORMIDADES Y ACCIONES CORRECTIVAS: cuando se detecte una no conformidad la organización debe reaccionar, determinando sus causas y proponiendo acciones correctivas efectivas para eliminar la causa raíz.\n\nMejora continua: el SGSI debe asegurar que la organización mejora continuamente su efectividad mediante el uso de:\n- La política y los objetivos de seguridad de la información.\n- Los resultados de auditoria.\n- Los análisis de eventos monitorizados.\n- Las acciones correctivas y preventivas.\n- La revisión del sistema por parte de la alta dirección."
+										},
+									]
+								},
+								{
+									materia: "Diferencias ISO 27001 con Norma ISO 27002",
+									PR: [
+										{
+											pregunta: "En qué consiste la norma ISO 27002:2013",
+											resposta: "es una GUÍA DE RECOMENDACIONES estructuradas que está reconocida internacionalmente y DEDICADA A LA SEGURIDAD DE LA INFORMACIÓN."
+										},
+										{
+											pregunta: "Que NO ES la norma ISO 27002?",
+											resposta: "NO ES un estándar técnico.\n NO ES una norma tecnológica orientada al producto.\n NO ES una metodología de evaluación del equipamiento.\n NO ES un sistema que permite una certificación de la seguridad, ya que actualmente solo ISO 27001 y sus derivados nacionales ofrecen un esquema de certificación.\n NO ES un sistema que no detalla ninguna obligación en cuanto al método de evaluación del riesgo, sino que bastaría con elegir el que responde a las necesidades."
+										},
+										{
+											pregunta: "Para que sirve la norma ISO 27002?",
+											resposta: "Para dar consejos y recomendaciones que permitan asegurar la seguridad de la información de una empresa.\n\nLa norma contiene un conjunto de controles donde se identifican las MEJORES PRÁCTICAS PARA LA GESTIÓN DE LA SEGURIDAD DE LA INFORMACIÓN, y sirve como consulta al encargado de la seguridad de la información de una organización.\n\nLa ISO 27002:2013 no es un Sistema de Gestión de Seguridad de la Información.\n\nLa ISO 27002:2013 NO ES CERTIFICABLE, únicamente hace recomendaciones sobre el uso de controles de seguridad, y NO ESTABLECE NINGÚN REQUISITO cuyo cumplimiento pudiera certificarse."
+										},
+										{
+											pregunta: "Las normas ISO 20000-1 e ISO 22301, qué desarrollan en más detalle?",
+											resposta: "Controles que aparecen en el anexo A de ISO 27001, tales como gestión de la capacidad o continuidad del negocio."
+										}
+									]
+								},
+								{
+									materia: "Perfil de la organización interesada",
+									PR: [
+										{
+											pregunta: "Que organizaciones pueden estar interesadas en un SGSI?",
+											resposta: "CUALQUIER TIPO DE ORGANIZACIÓN O DE EMPRESA, PRIVADA O PÚBLICA, en estos casos no importa el tamaño de esta para proceder a la implantación del sistema.\n\n	Es importante también su implantación en aquellas ORGANIZACIONES que utilizan sistemas internos o externos que poseen INFORMACIONES CONFIDENCIALES, o que dependen de estos sistemas para el funcionamiento normal de sus operaciones.\n\nLa organización que desea PROBAR SU NIVEL DE SEGURIDAD DE LA INFORMACIÓN conforme a una norma reconocida internacionalmente."
+										},
+										{
+											pregunta: "Sectores con ESCASO RIESGO en el sistema de información:",
+											resposta: "Agricultura\nConstrucción e inmobiliario\nAlimentación y tabaco\nEquipamiento industrial\nMinas y materiales"
+										},
+										{
+											pregunta: "Sectores con riesgo MEDIO en el sistema de información:",
+											resposta: "Automóvil\nQuímica\nEnergía: petróleo y naftas\nVenta al por mayor"
+										},
+										{
+											pregunta: "Sectores con ALTO riesgo en el sistema de información:",
+											resposta: "Gubernamental\nAeroespacial y defensa\nBiomedicina\nElectrónica\nServicios financieros\nServicios de información\nFarmacéutico\nVenta al por menor"
+										},
+									]
+								}
+							]
+						},
+						{
+							materia: "Objetivos y controles de ISO 27001",
+							subMateria: [
+								{
+									materia: "Normas ISO 27001 e ISO 27002",
+									PR: [
+										{
+											pregunta: "Desde cuando hay una nueva versión de la ISO 27001?",
+											resposta: "desde 1 de octubre de 2013"
+										},
+										{
+											pregunta: "La norma ISO 27001, que se regula en su anexo A?",
+											resposta: "los objetivos de control y controles, tal y como establece la Norma ISO 27001."
+										},
+										{
+											pregunta: "Es certificable la norma ISO 27002?",
+											resposta: "No. Es un código de buenas prácticas y recomendaciones, que describe los objetivos de control y controles recomendables en materia de seguridad de la información."
+										},
+										{
+											pregunta: "Cual es el contenido de la ISO 27002?",
+											resposta: "- 14 áreas de aplicación.\n- 35 objetivos: que son aquellos resultados que se espera alcanzar mediante la implantación de controles.\n	- 114 controles: todas aquellas prácticas, procedimientos o mecanismos que reducen el nivel de riesgo."
+										}
+									]
+								},
+								{
+									materia: "Objetivos de control y controles",
+									PR: [
+										{
+											pregunta: "A.5 Politica de seguridad (2 controles)",
+											resposta: "Objetivo de control: DIRIGIR Y DAR SOPORTE A LA GESTIÓN DE LA SEGURIDAD DE LA INFORMACIÓN DE ACUERDO CON LOS REQUISITOS DEL NEGOCIO Y LAS LEYES Y REGULACIONES RELEVANTES.\n\nLa alta dirección debe definir un conjunto de políticas que reflejen las directrices de la organización en materia de seguridad, aprobarlas y publicarlas de la forma adecuada a todo el personal implicado en la seguridad de la organización (empleados y partes interesadas)."
+										},
+										{
+											pregunta: "A.6 Organización de la seguridad de la información (7 controles)",
+											resposta: "Objetivo de control: ESTABLECER UN MARCO DE TRABAJO DE GESTIÓN PARA INICIAR Y CONTROLAR LA IMPLANTACIÓN Y OPERACIÓN DE LA SEGURIDAD DE LA INFORMACIÓN DENTRO DE LA ORGANIZACIÓN.\n\nLa organización debe definir cada uno de los roles y responsabilidades implicados, eliminar los conflictos de intereses por medio de la segregación de las tareas incompatibles, mantener contactos con las autoridades relevantes con relación al SGSI, mantener vínculos con grupos de interés y foros profesionales y tratar los riesgos de seguridad de la información en la gestión de proyectos.\n\nObjetivo de control: PROTEGER EL TELETRABAJO Y USO DE DISPOSITIVOS MÓVILES.\n\nSe deben establecer políticas para gestionar los riesgos derivados del uso de dispositivos móviles y el acceso, procesamiento o almacenamiento de información desde ubicaciones externas."
+										},
+										{
+											pregunta: "A.7 Seguridad de los recursos humanos (6 controles)",
+											resposta: "- Objetivo de control: ASEGURAR QUE LOS EMPLEADOS Y SUBCONTRATADOS ENTIENDEN SUS RESPONSABILIDADES Y QUE SON ADECUADAS PARA SUS FUNCIONES.\n\nEs necesario sistematizar un método de verificación de la experiencia y credenciales de acuerdo con la legislación, necesidades del negocio y nivel de riesgo en función de la información a la que se tendrá acceso. Las responsabilidades deberán estar formalizadas en un contrato entre ambas partes.\n\n- Objetivo de control: ASEGURAR QUE LOS EMPLEADOS Y SUBCONTRATADOS CONOCEN Y CUMPLEN CON SUS RESPONSABILIDADES EN MATERIA DE SEGURIDAD DE LA INFORMACIÓN.\n\nSe debe asegurar que los empleados y subcontratistas cumplen con las políticas y procedimientos de seguridad vigentes, que reciben la adecuada formación y que son conocedores del procedimiento disciplinario existente en caso de incumplimiento.\n\n- Objetivo de control: PROTEGER LOS INTERESES DE LA ORGANIZACIÓN COMO PARTE DEL PROCESO DE CAMBIO DE FUNCIONES O FINALIZACIÓN DE LA RELACIÓN CONTRACTUAL CON EL EMPLEADO O SUBCONTRATADO.\n\nLas obligaciones y responsabilidades en materia de seguridad de la información una vez finalizada la relación laboral o cambio de puesto y que deban seguir vigentes, se comunicarán al empleado o subcontratista."
+										},
+										{
+											pregunta: "A.8 Gestión de activos",
+											resposta: "Objetivo de control: IDENTIFICAR LOS ACTIVOS DE LA ORGANIZACIÓN Y DEFINIR ADECUADAS RESPONSABILIDADES PARA SU PROTECCIÓN.\n\n								Establecimiento de un inventario de los activos asociados con la información e infraestructura para su procesamiento, detallando propietarios, así como normas de uso aceptable y su devolución en caso de finalización de la relación contractual entre la organización y el empleado u otra parte interesada.\n\nObjetivo de control: ASEGURAR QUE LA DOCUMENTACIÓN RECIBE UN ADECUADO NIVEL DE PROTECCIÓN EN FUNCIÓN DE SU IMPORTANCIA PARA LA ORGANIZACIÓN.\n\nLa información se clasificará aplicando diferentes criterios (requisitos legales, nivel de riesgo, criticidad…) y se procederá a su marcado o etiquetado en función de las políticas definidas. Además, será necesario establecer mecanismos para la manipulación de los activos en función de la clasificación definida.\n\nObjetivo de control: PREVENIR LA DIVULGACIÓN NO AUTORIZADA, MODIFICACIÓN, ELIMINACIÓN O DESTRUCCIÓN DE INFORMACIÓN ALMACENADA EN LOS MEDIOS DE INFORMACIÓN.\n\nLos medios que contienen información estarán protegidos contra el acceso no autorizado, el uso indebido o la corrupción durante su transporte."
+										},
+										{
+											pregunta: "A.9 Control de acceso (14 controles)",
+											resposta: "Objetivo de control: LIMITAR EL ACCESO A LA INFORMACIÓN E INFRAESTRUCTURA DE PROCESAMIENTO DE INFORMACIÓN.\n\nLos medios que contienen información estarán protegidos contra el acceso no autorizado, el uso indebido o la corrupción durante su transporte.\n\nObjetivo de control: ASEGURAR EL ACCESO AUTORIZADO Y PREVENIR LOS ACCESOS NO AUTORIZADOS A LOS SISTEMAS Y SERVICIOS.\n\nImplantación de un proceso formal de registro, modificación y eliminación de usuarios, incluyendo los permisos y la revisión periódica de los derechos de acceso.\n\nObjetivo de control: HACER A LOS USUARIOS RESPONSABLES DE PROTEGER SU INFORMACIÓN DE AUTENTICACIÓN.\n\nLos usuarios deben aplicar las directrices definidas por la organización con relación al uso de la información secreta para la autenticación.\n\nObjetivo de control: PREVENIR EL ACCESO NO AUTORIZADO A SISTEMAS Y APLICACIONES.\n\nImplantación de métodos para restringir el acceso a la información, procedimientos seguros de inicio de sesión, contraseñas robustas, acceso al código fuente de los programas y control exhaustivo de herramientas con la capacidad de romper medidas de seguridad de acceso a sistemas y aplicaciones."
+										},
+										{
+											pregunta: "A.10 Criptografía (2 controles)",
+											resposta: "Objetivo de control: ASEGURAR EL USO ADECUADO Y EFECTIVO DE LA CRIPTOGRAFÍA PARA PROTEGER LA CONFIDENCIALIDAD, AUTENTICIDAD Y/O INTEGRIDAD DE LA INFORMACIÓN.\n\nDefinir una política de uso de controles criptográficos y uso de claves."
+										},
+										{
+											pregunta: "A.11 Seguridad físia y ambiental (15 controles)",
+											resposta: "Objetivo de control: PREVENIR EL ACCESO FÍSICO NO AUTORIZADO, DAÑOS E INTERFERENCIAS EN LA INFORMACIÓN E INFRAESTRUCTURAS DE PROCESAMIENTO DE INFORMACIÓN DE LA ORGANIZACIÓN.\n\nEstablecimiento de un perímetro de seguridad con controles físicos de entrada. Existencia de protección contra amenazas ambientales (fuego, agua, temperatura) en las zonas seguras, oficinas y salas con infraestructura.\n\nObjetivo de control: EVITAR LA PÉRDIDA, DAÑO, ROBO DE LOS ACTIVOS Y LA INTERRUPCIÓN DE LAS OPERACIONES DE LA ORGANIZACIÓN.\n\nImplantación de políticas para la protección de los equipos, suministro eléctrico y cableado, así como su mantenimiento, reutilización o eliminación. Además se requiere la definición de políticas en caso de equipos desatendidos por el usuario y mesas y escritorios limpios."
+										},
+										{
+											pregunta: "A.12 Seguridad de las operaciones (14 controles9",
+											resposta: "Objetivo de control: CONFIRMAR QUE LA INFRAESTRUCTURA DE PROCESAMIENTO DE LA INFORMACIÓN OPERA DE FORMA SEGURA Y CORRECTA.\n\nAplicación de documentos que describan los procedimientos operacionales, la gestión de cambios, gestión de la capacidad y la separación de los entornos de desarrollo, pruebas y producción.\n\nObjetivo de control: ASEGURAR QUE LA INFORMACIÓN Y LA INFRAESTRUCTURA DE PROCESAMIENTO DE LA INFORMACIÓN ESTÁN PROTEGIDAS FRENTE A MALWARE.\n\nObjetivo de control: PROTECCIÓN FRENTE A PÉRDIDA DE DATOS.\n\nObjetivo de control: REGISTRAR EVENTOS Y GENERAR EVIDENCIAS.\n\nSe requiere registrar las actividades de los usuarios y sistemas, así como fallos y eventos que atenten contra la seguridad de la información.\n\nObjetivo de control: ASEGURAR LA INTEGRIDAD DE LOS SISTEMAS OPERACIONALES.\n\nObjetivo de control: PREVENIR LA EXPLOTACIÓN DE LAS VULNERABILIDADES TÉCNICAS.\n\nLa organización debe conocer el grado de exposición frente a vulnerabilidades técnicas de sus sistemas de información, así como implantar políticas para la instalación restringida de software.\n\nObjetivo de control: MINIMIZAR EL IMPACTO DE LAS ACTIVIDADES DE AUDITORÍA EN LOS SISTEMAS OPERACIONALES.\n\nLas actividades de auditoría de los sistemas de información deben estar cuidadosamente planificadas y con el objeto de minimizar las interrupciones en los procesos del negocio."
+										},
+										{
+											pregunta: "A.13 Seguridad de las comunicaciones (14 controles)",
+											resposta: "Objetivo de control: ASEGURAR LA PROTECCIÓN DE LA INFORMACIÓN EN REDES DE COMUNICACIONES Y EN SUS RECURSOS DE PROCESAMIENTO DE SOPORTE.\n\nSe deben aplicar medidas de seguridad en la red para proteger la información en sistemas y aplicaciones. Estos requerimientos se tienen que evidenciar en los contratos con las empresas que presten servicios de red.\n\nObjetivo de control: MANTENER LA SEGURIDAD EN LA INFORMACIÓN TRANSFERIDA ENTRE LA ORGANIZACIÓN Y CUALQUIER ENTIDAD EXTERNA.\n\nDefinición de políticas, procedimientos y controles formales para gestionar la transferencia con independencia del tipo de infraestructura que se use. Estos requisitos se deberán plasmar en los contratos y acuerdos de confidencialidad."
+										},
+										{
+											pregunta: "A.14 Adquisición, desarrollo y mantenimiento de sistemas (13 controles)",
+											resposta: "Objetivo de control: GARANTIZAR QUE LA SEGURIDAD DE LA INFORMACIÓN ES PARTE INTEGRAL DE TODO EL CICLO DE VIDA DE LOS SISTEMAS DE INFORMACIÓN.\n\nMediante el análisis de los requisitos de seguridad de la información y los servicios de aplicaciones en redes públicas.\n\nObjetivo de control: GARANTIZAR QUE LA SEGURIDAD DE LA INFORMACIÓN FORMA PARTE DEL DISEÑO E IMPLANTACIÓN DEL CICLO DE VIDA DE LOS SISTEMAS DE INFORMACIÓN.\n\nFormalización de políticas de desarrollo seguro de software y sistemas, incluyendo procedimientos de control de cambios, una revisión técnica después del despliegue de los cambios, o restricción de cambios en los paquetes de software, pruebas de seguridad, etc."
+										},
+										{
+											pregunta: "A.15 Relación con los proveedores (5 controles)",
+											resposta: "Objetivo de control: ASEGURAR LA PROTECCIÓN DE LOS ACTIVOS DE LA ORGANIZACIÓN QUE SON ACCESIBLES POR PROVEEDORES.\n\nLos requisitos de seguridad para la mitigación de los riesgos asociados por el acceso de terceros deben estar documentados y acordados con el proveedor, incluyendo todos los escenarios aplicables (acceso, procesamiento, almacenamiento, comunicación o suministro de infraestructura TI).\n\nObjetivo de control: MANTENER EL NIVEL DE SEGURIDAD DE LA INFORMACIÓN Y LA PRESTACIÓN DE LOS SERVICIOS DE ACUERDO CON LOS ACUERDOS CON LOS PROVEEDORES."
+										},
+										{
+											pregunta: "A.16 Gestión de los incidentes de seguridad de la inforamción (7 controles)",
+											resposta: "Objetivo de control: GARANTIZAR UN ENFOQUE COHERENTE Y EFICAZ PARA LA GESTIÓN DE INCIDENTES DE SEGURIDAD DE LA INFORMACIÓN, INCLUYENDO LA COMUNICACIÓN DE EVENTOS DE SEGURIDAD Y DEBILIDADES.\n\nNecesidad de establecer responsabilidades y procedimientos para la notificación, reporte, evaluación, tratamiento, aprendizaje y registro de incidentes, debilidades y eventos de seguridad de la información."
+										},
+										{
+											pregunta: "A.17 Aspectos de seguridad de la información de la gestión de la continuidad del negocio",
+											resposta: "Objetivo de control: LA CONTINUIDAD DE LA SEGURIDAD DE LA INFORMACIÓN DEBE ESTAR INCLUIDA EN LOS SISTEMAS DE GESTIÓN DE LA CONTINUIDAD DEL NEGOCIO.\n\nLa organización debe determinar sus requisitos de seguridad de la información y continuidad del negocio en situaciones adversas, por ejemplo durante una crisis o desastre, documentando procedimientos de actuación y definiendo mecanismos para verificar, revisa y evaluar su eficacia.\n\nObjetivo de control: ASEGURAR LA DISPONIBILIDAD DE LAS INFRAESTRUCTURAS DE PROCESAMIENTO DE LA INFORMACIÓN."
+										},
+										{
+											pregunta: "A.18 Cumplimiento (8 controles)",
+											resposta: "Objetivo de control: EVITAR INCUMPLIMIENTOS DE LAS OBLIGACIONES LEGALES, ESTATUTARIAS, REGLAMENTARIAS O CONTRACTUALES EN MATERIA DE SEGURIDAD DE LA INFORMACIÓN Y CUALQUIER REQUISITO DE SEGURIDAD.\n\nSe deberán contemplar obligaciones en materia de privacidad y protección de datos de carácter personal, propiedad intelectual, criptografía, registros, etc.\n\nObjetivo de control: ASEGURAR QUE LA SEGURIDAD DE LA INFORMACIÓN SE IMPLANTA Y OPERA DE ACUERDO CON LAS POLÍTICAS Y PROCEDIMIENTOS DE LA ORGANIZACIÓN."
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					materia: "UC03 - Comprender Necesidades y Expectativas de la Organización: Liderazgo y Compromiso de la Alta Dirección",
+					subMateria: [
+						{
+							materia: "Capítulos 4 y 5 de la norma ISO 27001:2013",
+							subMateria: [
+								{
+									materia: "Contextualización",
+									PR: [
+										{
+											pregunta: "Cual es el contenido del capitulo 4?",
+											resposta: "describe los REQUISITOS GENERALES de un Sistema de Gestión de la Seguridad de la Información y sus procesos, así como nuevos requisitos de conocimiento y CONTEXTO DE LA ORGANIZACIÓN, comprensión de NECESIDADES Y EXPECTATIVAS de las partes interesadas y determinación del ALCANCE DEL SISTEMA de gestión de seguridad de la información.\n\n	4.1 Comprensión de la organización y de su contexto.\n4.2 Comprensión de las necesidades y expectativas de las partes interesadas.\n4.3 Determinación del alcance del sistema de gestión de la calidad.\n4.4 Sistema de gestión de seguridad de la información."
+										},
+										{
+											pregunta: "Cual es el contenido del capítulo 5?",
+											resposta: "describe y establece las RESPONSABILIDADES DE LA DIRECCIÓN dentro de un Sistema de Gestión de la Seguridad de la Información. Los requisitos de esta sección hacen referencia a las responsabilidades de la organización en todas aquellas cuestiones tanto internas como externas relevantes para la seguridad de la información.\n\n5.1 Liderazgo y compromiso.\n5.2 Política.\n5.3 Roles, responsabilidades, y autoridades en la organización."
+										}
+									]
+								},
+								{
+									materia: "Comprensión de la organización y su contexto",
+									PR: [
+										{
+											pregunta: "Requisitos exigidos por la norma",
+											resposta: "Tener un conocimiento de la organización y de su contexto.\n\n								Determinar las cuestiones externas e internas pertinentes para su propósito y su dirección estratégica, y que afectan su capacidad para lograr los resultados previstos de su Sistema de Gestión de Seguridad de la Información.\n\n											Realizar el seguimiento y revisión de la información sobre estas cuestiones externas e internas."
+										}
+									]
+								}
+							]
+						},
+						{
+							materia: "Comprensión de las necesidades y expectativas de las partes interesadas",
+							subMateria: [
+								{
+									materia: "Determinación de las partes interesadas",
+									PR: [
+										{
+											pregunta: "Requisitos exigidos por la norma (punto 4.2)",
+											resposta: "La organización debe:\n\n- DETERMINAR LAS PARTES INTERESADAS que son pertinentes para el SGSI.\n- DETERMINAR LOS REQUISITOS DE ESTAS PARTES INTERESADAS que son relevantes para la seguridad de la información. Estos requisitos PUEDEN INCLUIR REQUISITOS LEGALES Y REGULATORIOS, y también OBLIGACIONES CONTRACTUALES."
+										}
+									]
+								}
+							]
+						},
+						{
+							materia: "Determinación del alcance del SGSI",
+							subMateria: [
+								{
+									materia: "Determinación del alcance y sus beneficios",
+									PR: [
+										{
+											pregunta: "Requisitos exigidos por la norma (punto 4.3)",
+											resposta: "La organización debe:\n\n- DETERMINAR LOS LÍMITES Y LA APLICABILIDAD del SGSI para establecer su alcance.\n- CONSIDERAR LAS CUESTIONES EXTERNAS E INTERNAS referidas en 4.1, VALORAR LOS REQUISITOS de las partes interesadas pertinentes referidos en 4.2 y ANALIZAR LAS ACTUACIONES desarrolladas por la organización.\n\nLa intención del requisito es que las partes interesadas, así como los organismos de certificación, conozcan sin ambigüedades el campo de actuación del sistema de gestión y la capacidad para cumplir requisitos establecidos evitando confusiones y malentendidos."
+										},
+										{
+											pregunta: "Aspectos beneficiosos de implantación del SGSI",
+											resposta: "DIFERENCIACIÓN de la competencia.\nMEJOR POSICIONAMIENTO en ofertas y licitaciones.\nMEJORES COMUNICACIONES con las partes.\nIDENTIFICACIÓN DE REQUISITOS de partes interesadas pertinentes precisos y su mejor gestión.\nIDENTIFICACIÓN DE REQUISITOS LEGALES Y REGLAMENTARIOS de aplicación precisos.\nAUMENTO DE LA SATISFACCIÓN de todas las partes identificadas, sin olvido u omisión de ninguna de ellas."
+										}
+									]
+								}
+							]
+						},
+						{
+							materia: "Liderazgo y compromiso",
+							subMateria: [
+
+							]
+						},
+						{
+							materia: "Política de seguridad de la información",
+							subMateria: [
+
+							]
+						},
+						{
+							materia: "Roles, responsables y autoridades",
+							subMateria: [
+
+							]
+						}
+					]
+				}
+			]
+		},
 
 
 
-]
+	]
