@@ -545,11 +545,11 @@ arrCursAuditories =
 									PR: [
 										{
 											pregunta: "Cual es el contenido del capitulo 4?",
-											resposta: "describe los REQUISITOS GENERALES de un Sistema de Gestión de la Seguridad de la Información y sus procesos, así como nuevos requisitos de conocimiento y CONTEXTO DE LA ORGANIZACIÓN, comprensión de NECESIDADES Y EXPECTATIVAS de las partes interesadas y determinación del ALCANCE DEL SISTEMA de gestión de seguridad de la información.\n\n	4.1 Comprensión de la organización y de su contexto.\n4.2 Comprensión de las necesidades y expectativas de las partes interesadas.\n4.3 Determinación del alcance del sistema de gestión de la calidad.\n4.4 Sistema de gestión de seguridad de la información."
+											resposta: "describe los REQUISITOS GENERALES de un Sistema de Gestión de la Seguridad de la Información y sus procesos, así como nuevos requisitos de CONOCIMIENTO Y CONTEXTO DE LA ORGANIZACIÓN, comprensión de NECESIDADES Y EXPECTATIVAS de las partes interesadas y determinación del ALCANCE DEL SGSI.\n\n	4.1 Comprensión de la organización y de su contexto.\n4.2 Comprensión de las necesidades y expectativas de las partes interesadas.\n4.3 Determinación del alcance del sistema de gestión de la calidad.\n4.4 Sistema de gestión de seguridad de la información."
 										},
 										{
 											pregunta: "Cual es el contenido del capítulo 5?",
-											resposta: "describe y establece las RESPONSABILIDADES DE LA DIRECCIÓN dentro de un Sistema de Gestión de la Seguridad de la Información. Los requisitos de esta sección hacen referencia a las responsabilidades de la organización en todas aquellas cuestiones tanto internas como externas relevantes para la seguridad de la información.\n\n5.1 Liderazgo y compromiso.\n5.2 Política.\n5.3 Roles, responsabilidades, y autoridades en la organización."
+											resposta: "describe y establece las RESPONSABILIDADES DE LA DIRECCIÓN  en todas aquellas cuestiones tanto internas como externas relevantes para la seguridad de la información.\n\n5.1 Liderazgo y compromiso.\n5.2 Política.\n5.3 Roles, responsabilidades, y autoridades en la organización."
 										}
 									]
 								},
@@ -558,7 +558,7 @@ arrCursAuditories =
 									PR: [
 										{
 											pregunta: "Requisitos exigidos por la norma",
-											resposta: "Tener un conocimiento de la organización y de su contexto.\n\n								Determinar las cuestiones externas e internas pertinentes para su propósito y su dirección estratégica, y que afectan su capacidad para lograr los resultados previstos de su Sistema de Gestión de Seguridad de la Información.\n\n											Realizar el seguimiento y revisión de la información sobre estas cuestiones externas e internas."
+											resposta: "Tener un conocimiento de la organización y de su contexto.\n\nDeterminar las cuestiones externas e internas pertinentes para su propósito y su dirección estratégica, y que afectan su capacidad para lograr los resultados previstos de su SGSI.\n\nRealizar el seguimiento y revisión de la información sobre estas cuestiones externas e internas."
 										}
 									]
 								}
@@ -591,6 +591,31 @@ arrCursAuditories =
 										{
 											pregunta: "Aspectos beneficiosos de implantación del SGSI",
 											resposta: "DIFERENCIACIÓN de la competencia.\nMEJOR POSICIONAMIENTO en ofertas y licitaciones.\nMEJORES COMUNICACIONES con las partes.\nIDENTIFICACIÓN DE REQUISITOS de partes interesadas pertinentes precisos y su mejor gestión.\nIDENTIFICACIÓN DE REQUISITOS LEGALES Y REGLAMENTARIOS de aplicación precisos.\nAUMENTO DE LA SATISFACCIÓN de todas las partes identificadas, sin olvido u omisión de ninguna de ellas."
+										},
+										{
+											pregunta: "De que depende el ALCANCE del SGSI?",
+											resposta: "De las NECESIDADES, OBJETIVOS, REQUISITOS DE SEGURIDAD, PROCESOS ORGANIZATIVOS utilizados y su tamaño y estructura, y PROPORCIONAR la JUSTIFICACIÓN PARA CUALQUIER REQUISITO de esta Norma Internacional."
+										},
+										{
+											pregunta: "La CONFORMIDAD con esta Norma Internacional solo se puede declarar si...",
+											resposta: "los REQUISITOS determinados como NO APLICABLES, NO AFECTAN A LAS CUESTIONES INTERNAS O EXTERNAS QUE AFECTEN a la capacidad de la organización para lograr los resultados previstos en el SGSI"
+										},
+										{
+											pregunta: "El alcance debe estar DISPONIBLE para las partes interesadas Y MANTENERSE COMO INFORMACIÓN DOCUMENTADA, estableciendo:",
+											resposta: "- Las CUESTIONES INTERNAS Y EXTERNAS referidas a la comprensión de la organización y su contexto.\n			- LOS REQUISITOS DE LAS PARTES INTERESADAS relevantes para la seguridad de la información.\n- Las interfaces y dependencias entre las actividades realizadas por la organización y las que se realizan por otras organizaciones."
+										}
+									]
+								},
+								{
+									materia: "Sistema de Gestion de la Seguridad de la Información",
+									PR: [
+										{
+											pregunta: "Para un SGSI la organización debe:",
+											resposta: "ESTABLECER, IMPLEMENTAR, MANTENER Y MEJORAR CONTINUAMENTE UN SGSI, incluidos los procesos necesarios y sus interacciones, de acuerdo con los requisitos de esta Norma Internacional"
+										},
+										{
+											pregunta: "Requisitos exigidos por la norma acerca de un SGSI",
+											resposta: "- DETERMINAR LOS PROCESOS NECESARIOS para el SSGSI y su aplicación en toda la organización.\n- Tener un CONOCIMIENTO DE LA ORGANIZACIÓN y de su CONTEXTO.\n- Comprender de las NECESIDADES Y EXPECTATIVAS de las partes interesadas.\n- DELIMITAR EL ALCANCE del Sistema de Gestión de la información.\n\nDentro del Sistema de Gestión de Seguridad de la Información y sus procesos, determinar:\n    - Los elementos de entrada requeridos y los ELEMENTOS DE SALIDA esperados.\n    - Su SECUENCIA e INTERACCIÓN.\n    - Los CRITERIOS, MÉTODOS, incluyendo el seguimiento, mediciones y los indicadores de desempeño necesarios para asegurar su OPERACIÓN EFICAZ Y SU CONTROL.\n    - Los RECURSOS necesarios y asegurarse de su disponibilidad.\n    - La asignación de RESPONSABILIDADES y AUTORIDADES.\n    - Los RIESGOS y OPORTUNIDADES.\n    - La EVALUACIÓN DE LOS PROCESOS e implementar cualquier cambio necesario para asegurarse de que estos procesos logran los resultados previstos, y los métodos para realizar el seguimiento, mediciones y evaluaciones de los procesos.\n    - OPORTUNIDADES DE MEJORA de los procesos y del SGSI."
 										}
 									]
 								}
@@ -599,25 +624,147 @@ arrCursAuditories =
 						{
 							materia: "Liderazgo y compromiso",
 							subMateria: [
-
+								{
+									materia: "Compromiso y responsabilidades de la dirección",
+									PR: [
+										{
+											pregunta: "DEBERES DE LA ALTA DIRECCIÓN a la hora de implantar un SGSI",
+											resposta: "- COMUNICAR a la organización que debe DETERMINAR LAS PARTES INTERESADAS relevantes para el SGSI y LOS REQUISITOS DE ESTAS PARTES INTERESADAS relevantes para la seguridad de la información.\n- Establecer la POLÍTICA y ASEGURAR QUE SE ESTABLECEN LOS OBJETIVOS E SEGURIDAD de la información.\n- Aportar los RECURSOS necesarios.\n- Llevar a cabo las REVISIONES establecidas por la dirección."
+										},
+										{
+											pregunta: "Responsabilidades de la dirección en el SGSI",
+											resposta: "- es la responsable de que se alcancen los objetivos marcados.\n- es imprescindible su implicación\n- debe proporcionar evidencia de su compromiso con el desarrollo e implementación, así como con la mejora continua de su eficacia.\n- el éxito del SGSI solo se puede conseguir a través de un serio compromiso de la dirección, que lo puede hacer patente comunicando a la organización la importancia del mismo. Debbe transmitir un ambiente en el que todos sus miembros se encuentren totalmente involucrados."
+										}
+									]
+								},
+								{
+									materia: "Generalidades",
+									PR: [
+										{
+											pregunta: "Acciones de la alta dirección para demostrar liderazgo y COMPROMISO respecto al SGSI:",
+											resposta: "- Tomando la responsabilidad de la eficacia del SGSI.\n- Asegurando que se establezca la política y los objetivos de seguridad de la información sean compatibles con el contexto de la organización.\n- Asegurando que la política de seguridad de la información es comunicada, entendida y aplicada dentro de la organización.\n- Asegurando la integración de los requisitos del SGSI en los procesos de negocio del a organización.\n- Promoviendo la toma de conciencia del enfoque de la política de la seguridad de la información.\n- Asegurando que los recursos necesarios para el SGSI estén disponibles.\n- Comunicando la importancia de una gestión de la seguridad de la información eficaz y conforme con los requisitos del SGSI.\n- Asegurando que el SGSI logre los resultados previstos.\n- Involucrando, dirigiendo y apoyando a las personas, para contribuir a la eficacia del SGSI.\n- Promoviendo la mejora continua.\n- Apoyando a otros roles pertinentes de la dirección, para que demuestren su liderazgo aplicado a sus áreas de responsabilidad."
+										}
+									]
+								},
+								{
+									materia: "Liderazgo y compromiso. El nuevo requisito exigido por la norma",
+									PR: [
+										{
+											pregunta: "Qué deberan adoptar la alta dirección no debiendo ni pudiéndose delegar?",
+											resposta: "Los términos y enfoques del SGSI. Por ej: promover, comunicar, asegurar, dirigir o apoyar el SGSI"
+										},
+										{
+											pregunta: "Los terminos y enfoques ahora son establecidos como requisitos para la alta dirección. Són:",
+											resposta: "- Asegurar la integración de los requisitos del Sistema de Gestión de Seguridad en los procesos de la organización.\n- Comunicar la importancia de una gestión de la seguridad de la información eficaz y conforme con los requisitos del sistema de gestión de seguridad de la información.\n- Asegurar que se sigue la política y los objetivos de seguridad de la información, y que sean compatibles con la dirección estratégica de la organización.\n- Dirigir y apoyar a las personas para contribuir a la eficacia del sistema de gestión de seguridad de la información.\n- Asegurar que los recursos necesarios para el SGSI estén disponibles.\n- Asegurar que el sistema de gestión de seguridad de la información consigue los resultados previstos.\n- Promover la mejora continua.\n- Apoyar a otros roles pertinentes de la dirección, para que demuestren su liderazgo."
+										}
+									]
+								}
 							]
 						},
 						{
 							materia: "Política de seguridad de la información",
 							subMateria: [
-
+								{
+									materia: "Consideraciones",
+									PR: [
+										{
+											pregunta: "Quien establece la política de seguridad?",
+											resposta: "la alta dirección."
+										},
+										{
+											pregunta: "Que es la politica de seguridad de la inforamción?",
+											resposta: "NORMAS y PROCEDIMIENTOS que permiten regular el USO de la INFORMACIÓN de una organización, evitando riesgos, deterioros o el uso no autorizado en el acceso a la información y disponible y ayuda a la organización a emplear adecuadamente sus recursos para alcanzarlos."
+										},
+										{
+											pregunta: "Caracteristicas que debe tener una política de seguridad",
+											resposta: "- Apoye a otros roles pertinentes de la dirección, para que demuestren su liderazgo.\n- Sea adecuada al propósito de la organización.\n- Incluya objetivos de seguridad de información o proporcione un marco de referencia para el establecimiento de los objetivos de seguridad de la información.\n- Incluya el compromiso de cumplir con los requisitos aplicables a la seguridad de la información para la mejora continua del sistema de gestión de seguridad de la información."
+										},
+										{
+											pregunta: "Requisitos de la politica de seguridad",
+											resposta: "Debe estar DISPONIBLE COMO INFORMACIÓN DOCUMENTADA Y COMUNICADA, de modo que sea conocida por todo el personal, dejando claro cuáles son sus objetivos, el modo de alcanzarlos y los valores en cuanto a ética, profesionalidad necesarios para alcanzar los propósitos marcados.\nLa dirección debe ASEGURARSE DE QUE LOS PRINCIPIOS EXPUESTOS SON PRACTICADOS y su vigencia se mantiene por todos los empleados, incluida la cadena de mando."
+										}
+									]
+								}
 							]
 						},
 						{
 							materia: "Roles, responsables y autoridades",
 							subMateria: [
-
+								{
+									materia: "Establecer roles, responsabilidades y autoridades en la organización",
+									PR: [
+										{
+											pregunta: "Cual es el objetivo de establecer roles, responsabilidades y autoridades",
+											resposta: "ESTABLECER Y DEFINIR de modo claro la JERARQUÍA DE AUTORIDAD y las RESPONSABILIDADES de cada uno de sus miembros, así como un buen método de comunicación interna."
+										},
+										{
+											pregunta: "Quien establece roles, responsabilidades y autoridades?",
+											respuesta: "La norma establece que la alta dirección debe asegurarse de que las RESPONSABILIDADES Y AUTORIDADES ESTÁN ASIGNADAS PARA LOS ROLES PERTINENTES y son COMUNICADAS Y ENTENDIDAS dentro de la organización."
+										},
+										{
+											pregunta: "respecto a las funciones que componen los procesos de operación y gestión",
+											resposta: "Hay que detereminar con claridad cuales son y asignar cada una de ellas A UNA PERSONA EN CONCRETO, de modo que ninguna función quede sin asignar o que pueda ser desarrollada por más de una persona."
+										},
+										{
+											pregunta: "Que és necesario para que el sistema proporcione buenos resultados?",
+											resposta: "Una FORMACIÓN ADECUADA, una BUENA COMUNICACIÓN INTERNA y una ACUSADA PARTICIPACIÓN DE LOS TRABAJADORES."
+										},
+										{
+											pregunta: "La alta dirección debe asignar la responsabilidad y autoridad para:",
+											resposta: "- Asegurarse de que el Sistema de Gestión de Seguridad de la Información ES CONFORME CON LOS REQUISITOS DE ESTA NORMA INTERNACIONAL.\n- INFORMAR a la alta dirección sobre el COMPORTAMIENTO del Sistema de Gestión de Seguridad de la información."
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					materia: "UC04 - Entender la Planificación y la Gestión de Recursos para el SGSI",
+					subMateria: [
+						{
+							materia: "Capitulo 6 de la norma",
+							subMateria:[
+								{
+									materia: "Contextualización",
+									PR: [
+										{
+											pregunta: "Que establece la norma 6?",
+											resposta: "Los REQUISITOS de PLANIFICACIÓN y ACTUACION en el SGSI"
+										},
+										{
+											pregunta: "Que debe hacer la organización al planificar el SGSI?",
+											resposta: "Debe considerar las CUESTIONES INTERNAS Y EXTERNAS QUE CONFORMAN EL CONTEXTO de la organización, y los requisitos de las partes interesadas relevantes para la seguridad de la información, y DETERMINAR LOS RIESGOS Y OPORTUNIDADES que es necesario tratar con el fin de:\n\n- Asegurar que el SGSI pueda conseguir sus resultados previstos\n- Prevenir o reducir efectos indeseados\n- Lograr la mejora continua"
+										},
+										{
+											pregunta: "Aspectos clave de la planificación",
+											resposta: "- Plantear las estrategias adoptadas por la organización.\n- Conocer los objetivos definidos por la organización sobre seguridad de la información.\n- Definir las necesidades y expectativas, tanto actuales como futuras para las partes interesadas.\n- Evaluar los datos procedentes de las acciones planteadas en los procesos del sistema de gestión de seguridad de la información."
+										},
+										{
+											pregunta: "Los objetivos del SGSI en la planificación del mismo",
+											resposta: "- Se deben establecer PLAZOS para conseguir los objetivos en un tiempo determinado. Estos se pueden desglosar para los distintos niveles de la organización\n- Los objetivos de seguridad de la información, además de estar perfectamente definidos, han de estarlo para todos los niveles y secciones de la organización.\n\nEl hecho de no alcanzar alguno de estos objetivos debe suponer una revisión de los procedimientos"
+										}
+									]
+								}
+							]
+						},
+						{
+							materia: "6.1 Acciones para tratar los riesgos y oportunidades",
+							subMateria: [
+								{
+									materia: "Requisitos exigidos por la norma",
+									PR: [
+										{
+											pregunta: ""
+										}
+									]
+								}
 							]
 						}
 					]
 				}
 			]
-		},
+		}
 
 
 
